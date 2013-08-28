@@ -7,14 +7,42 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegateProtocol.h"
+#import "ExampleAppDataObject.h"
 
 @implementation AppDelegate
-
+- (id) init;
+{
+	self.theAppDataObject = [[ExampleAppDataObject alloc] init];
+    return [super init];
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
     // Override point for customization after application launch.
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+        UIStoryboard *storyBoard;
+        
+        CGSize result = [[UIScreen mainScreen] bounds].size;
+        CGFloat scale = [UIScreen mainScreen].scale;
+        result = CGSizeMake(result.width * scale, result.height * scale);
+        
+        if(result.height == 1136){
+            storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard5" bundle:nil];
+            UIViewController *initViewController = [storyBoard instantiateInitialViewController];
+            [self.window setRootViewController:initViewController];
+        }
+        else{
+            storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+            UIViewController *initViewController = [storyBoard instantiateInitialViewController];
+            [self.window setRootViewController:initViewController];
+        }
+    }
+    
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
