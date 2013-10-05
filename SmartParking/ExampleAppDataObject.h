@@ -37,31 +37,30 @@
     NSTimer *fsmTimer;
 
 }
-@property (nonatomic, readwrite)NSMutableArray*  recordList;
-@property (nonatomic)  CLLocation *currentLocation;
-@property (nonatomic, readwrite) CLLocationCoordinate2D destination;
-@property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
-@property (nonatomic, copy) NSString* username;
-@property (nonatomic, copy) NSString* destAddress;
-@property (nonatomic, copy) NSString* userID;
-@property (nonatomic, copy) NSString* spot;
-@property (nonatomic, copy) NSString* currentView;
-@property (nonatomic, copy) NSString* parkingFlag;
-@property (nonatomic) bool nearbyFlag;
-@property (nonatomic) bool requestFlag;
-@property (nonatomic) bool showCompleteNotifyFlag;
-@property (nonatomic) bool showConfirmNotifyFlag;
-@property (nonatomic) bool showStolenNotifyFlag;
-@property (nonatomic) bool showNoSpotNotifyFlag;
-@property (nonatomic) bool confirmParkedFlag;
-@property (nonatomic) bool showWaitSensorNotifyFlag;
-@property (nonatomic) bool timeoutFlag;
-@property (nonatomic, copy) NSString* method;
-@property (nonatomic) int distance;
-@property (nonatomic, copy) NSString*  FSM_state;
-@property (nonatomic, copy) NSString*  timeout_state;
-@property (nonatomic, readwrite) NSString*  parkingCondition;
-
-@property (nonatomic) float  preference;
-@property (nonatomic) NSTimer*  fsmTimer;
+@property (nonatomic, strong)NSMutableArray*  recordList;
+@property (nonatomic, strong)  CLLocation *currentLocation;
+@property (nonatomic, assign) CLLocationCoordinate2D destination;
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
+@property (nonatomic, strong) NSString* username;
+@property (nonatomic, strong) NSString* destAddress;
+@property (nonatomic, strong) NSString* userID;
+@property (nonatomic, strong) NSString* spot;
+@property (nonatomic, strong) NSString* currentView;
+@property (nonatomic, strong) NSString* parkingFlag;
+@property (nonatomic, assign) bool nearbyFlag;
+@property (nonatomic, assign) bool requestFlag;
+@property (nonatomic, assign) bool showCompleteNotifyFlag;
+@property (nonatomic, assign) bool showConfirmNotifyFlag;
+@property (nonatomic, assign) bool showStolenNotifyFlag;
+@property (nonatomic, assign) bool showNoSpotNotifyFlag;
+@property (nonatomic, assign) bool confirmParkedFlag;
+@property (nonatomic, assign) bool showWaitSensorNotifyFlag;
+@property (nonatomic, assign) bool timeoutFlag;
+@property (nonatomic, strong) NSString* method;
+@property (nonatomic, assign) int distance;
+@property (nonatomic, strong) NSString*  FSM_state;
+@property (nonatomic, strong) NSString*  timeout_state;
+@property (nonatomic, strong) NSString*  parkingCondition;
+@property (nonatomic, assign) float  preference;
+@property (nonatomic, strong) NSTimer*  fsmTimer;
 @end

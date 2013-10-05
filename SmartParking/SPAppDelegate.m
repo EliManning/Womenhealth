@@ -23,7 +23,32 @@
 
 - (id) init;
 {
-	self.theAppDataObject = [[ExampleAppDataObject alloc] init];
+	theAppDataObject = [[ExampleAppDataObject alloc] init];
+    theAppDataObject.method = nil;
+    theAppDataObject.parkingCondition = nil;
+    theAppDataObject.userID = nil;
+    theAppDataObject.username = nil;
+    theAppDataObject.spot = nil;
+    theAppDataObject.parkingFlag = NO;
+    theAppDataObject.currentLocation = nil;
+    theAppDataObject.distance = 0;
+    theAppDataObject.fsmTimer = nil;
+    theAppDataObject.FSM_state = nil;
+    theAppDataObject.preference = 0;
+    theAppDataObject.recordList = nil;
+    theAppDataObject.destAddress = nil;
+    theAppDataObject.nearbyFlag = NO;
+    theAppDataObject.requestFlag = NO;
+    theAppDataObject.timeoutFlag = NO;
+    theAppDataObject.showCompleteNotifyFlag = NO;
+    theAppDataObject.showConfirmNotifyFlag = NO;
+    theAppDataObject.showNoSpotNotifyFlag = NO;
+    theAppDataObject.showStolenNotifyFlag = NO;
+    theAppDataObject.showWaitSensorNotifyFlag = NO;
+    theAppDataObject.spot = nil;
+    theAppDataObject.currentView = nil;
+
+    
     return [super init];
 }
 - (void)applicationDidFinishLaunching:(UIApplication *)application
@@ -36,6 +61,7 @@
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //[self initTheAppDataObject];
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
     // Override point for customization after application launch.
@@ -239,4 +265,17 @@
     NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : nil;
     return basePath;
 }
+//
+//- (ExampleAppDataObject*) theAppDataObject;
+//{
+//	id<AppDelegateProtocol> theDelegate = (id<AppDelegateProtocol>) [UIApplication sharedApplication].delegate;
+//	theAppDataObject = (ExampleAppDataObject*) theDelegate.theAppDataObject;
+//	return theAppDataObject;
+//}
+//-(void)initTheAppDataObject{
+//    theDataObject = [[ExampleAppDataObject alloc] init];
+//    theDataObject.parkingCondition = nil;
+//    theDataObject.method = nil;
+//    
+//}
 @end

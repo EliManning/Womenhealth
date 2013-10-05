@@ -13,7 +13,6 @@
 #import "AppDelegateProtocol.h"
 #import "SPPinAnnotation.h"
 #import "SPHistoryRecordView.h"
-#import "CustomAnnotationView.h"
 #import "Event.h"
 #import <dispatch/dispatch.h>
 #import <AudioToolbox/AudioToolbox.h>
@@ -29,11 +28,7 @@ enum
 };
 static int distance = 0;
 
-@interface SPMainMapViewController (){
-    ExampleAppDataObject* theDataObject ;
-  
-}
-
+@interface SPMainMapViewController ()
 @property (nonatomic, strong) NSMutableArray *mapAnnotations;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @end
@@ -277,8 +272,8 @@ static int distance = 0;
     
     radiusOverlay = [MKCircle circleWithCenterCoordinate:pAnnotation.coordinate radius:pAnnotation.radius];
     closeRadiusOverlay = [MKCircle circleWithCenterCoordinate:pAnnotation.coordinate radius:pAnnotation.closeRadius];
-    [self.mapView addOverlay:radiusOverlay];
-    [self.mapView addOverlay:closeRadiusOverlay];
+//    [self.mapView addOverlay:radiusOverlay];
+//    [self.mapView addOverlay:closeRadiusOverlay];
         
         
     [self gotoLocation];
@@ -312,17 +307,13 @@ static int distance = 0;
          }
     }
 */
-     NSLog(@"condition 2 is %@",theDataObject.parkingCondition);
     if(_method != nil){
         NSLog(@"segue method: %@",_method);
         theDataObject.method = _method;
     }
-     NSLog(@"condition 3 is %@",theDataObject.parkingCondition);
     if(!theDataObject.requestFlag){
-        NSLog(@"Set request flag %c",theDataObject.requestFlag);
         theDataObject.requestFlag = NO;
     }
-     NSLog(@"condition 4 is %@",theDataObject.parkingCondition);
     if([theDataObject.method isEqualToString:@"fromHistoryToPin"]&& ([theDataObject.parkingCondition isEqualToString:@"reserved"]|| [theDataObject.parkingCondition isEqualToString:@"nearby"])){
        dispatch_async(dispatch_get_main_queue(), ^{
            UIAlertView *alert = [[UIAlertView alloc]
@@ -334,12 +325,6 @@ static int distance = 0;
         [alert show];
         });
     }
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-      [self getFSMState];
-        
-    });
-    NSLog(@"condition is 5 %@",theDataObject.parkingCondition);
- 
   
     [self resetTimerToNil];
  //   [self checkParkingCondition];
@@ -354,6 +339,10 @@ static int distance = 0;
     else if([theDataObject.parkingCondition isEqualToString:@"reserved"]){
          [self setFSMInterval:20];
     }
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [self getFSMState];
+        
+    });
 }
 - (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay {
 	if([overlay isEqual:radiusOverlay]) {
@@ -383,13 +372,13 @@ static int distance = 0;
    // [locationManager setDelegate:nil];
 }
 -(void)checkParkingCondition{
-    NSLog(@"Check parking condition: %@",theDataObject.parkingCondition);
     if (theDataObject.destAddress != nil) {
         [self dropPinDestination:theDataObject.destAddress];
     }
-
-    
-    if([theDataObject.parkingCondition isEqualToString:@"reserved"]){
+    if(theDataObject.parkingCondition == nil){
+         [self checkMethod];
+    }
+    else if([theDataObject.parkingCondition isEqualToString:@"reserved"]){
         NSString *infoBarStr = @"Your reserved spot is ";
         infoBarStr = [infoBarStr stringByAppendingFormat:@"%@",theDataObject.spot];
         self.infoBar.topItem.title = infoBarStr;
@@ -431,14 +420,16 @@ static int distance = 0;
         [self.mapView addAnnotation:[self.mapAnnotations objectAtIndex:destIndex]];
        
     }
-    else 
-    {
-        [self checkMethod];
-    }
+
 
 }
--(NSString *)checkMethod{
+-(void)checkMethod{
     NSLog(@"NOW check method %@",theDataObject.method);
+    if(theDataObject.method == nil){
+        NSLog(@"methods is nil");
+        return;
+    }
+    
     if([theDataObject.method isEqualToString:@"pin"]){
         self.infoBar.topItem.title = @"Press and hold on a destination";
         self.bottomToolBar.hidden=YES;
@@ -456,10 +447,10 @@ static int distance = 0;
         self.infoBar.topItem.title = @"Select your BU destination";
         self.bottomToolBar.hidden=NO;
         self.pickDestination.hidden=NO;
-        self.cancelButton.title = @"Hide";
-        self.parkingButton.title = @"Select";
-        self.cancelButton.enabled=YES;
-        self.parkingButton.enabled = YES;
+        //self.cancelButton.title = @"Hide";
+        //self.parkingButton.title = @"Select";
+//        self.cancelButton.enabled=YES;
+//        self.parkingButton.enabled = YES;
         [self createPicker];
     }
     else if([theDataObject.method isEqualToString:@"search"]){
@@ -480,9 +471,7 @@ static int distance = 0;
         NSLog(@"History record destination is %@",theDataObject.destAddress);
         [self dropPinDestination:theDataObject.destAddress];
     }
-
-
-     return theDataObject.method;
+    
 }
 - (void)handleLongPress:(UIGestureRecognizer *)gestureRecognizer
 {
@@ -1055,7 +1044,7 @@ static int distance = 0;
         }
         else{
             NSLog(@"init close %@",strResult);
-            NSTimer *closetimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(isClose) userInfo:nil repeats:NO];
+    //        NSTimer *closetimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(isClose) userInfo:nil repeats:NO];
               
         }
         });
@@ -1652,7 +1641,7 @@ static int distance = 0;
     theDataObject.showWaitSensorNotifyFlag = YES;
     [self.mapView removeAnnotation:[self.mapAnnotations objectAtIndex:destIndex]];
     [theDataObject.fsmTimer invalidate];
-   theDataObject.fsmTimer = nil;
+    theDataObject.fsmTimer = nil;
 }
 
 -(Boolean)readTimeoutFlag{
@@ -1700,10 +1689,6 @@ static int distance = 0;
     pollingTimer = nil;
     pollingTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
  
-
-    /*
-
-     */
 }
 -(void)resetTimerToNil{
    
@@ -1711,7 +1696,7 @@ static int distance = 0;
         self.timerLabel.text=@"00:00";
         time = 0;
         [pollingTimer invalidate];
-    pollingTimer = nil;
+        pollingTimer = nil;
     
 }
 - (float) updateTime

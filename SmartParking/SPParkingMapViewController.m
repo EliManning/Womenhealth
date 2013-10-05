@@ -122,7 +122,7 @@
                                           otherButtonTitles:nil];
                     [alert show];
                     
-                   NSTimer *switchBoardTimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(switchBoard) userInfo:nil repeats:NO];
+              //     NSTimer *switchBoardTimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(switchBoard) userInfo:nil repeats:NO];
                     
                 }
                 else if([[self reserveSpot:theDataObject.userID Spot:tmpSpotStr] isEqualToString:@"fail"]){

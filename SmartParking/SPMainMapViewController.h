@@ -29,6 +29,7 @@
     NSTimer* pollingTimer;
     NSTimer *FarAwaytimer;
     NSTimer *NoSpottimer;
+    ExampleAppDataObject* theDataObject;
 }
 -(void)setFsmTimer:(NSTimer *)fsmTimer;
 -(void)startGps;

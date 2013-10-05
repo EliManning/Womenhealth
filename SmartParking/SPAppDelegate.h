@@ -13,7 +13,8 @@
 @class ExampleAppDataObject,KeychainItemWrapper;
 @interface SPAppDelegate :NSObject<UIApplicationDelegate,AppDelegateProtocol> {
     UIWindow *window;
-	ExampleAppDataObject* theAppDataObject;
+//    ExampleAppDataObject* theDataObject;
+     ExampleAppDataObject* theAppDataObject;
     KeychainItemWrapper *passwordItem;
     KeychainItemWrapper *accountNumberItem;
     NSPersistentStoreCoordinator *persistentStoreCoordinator;
@@ -23,9 +24,9 @@
 }
 
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic, retain) ExampleAppDataObject* theAppDataObject;
-@property (nonatomic, retain) KeychainItemWrapper *passwordItem;
-@property (nonatomic, retain) KeychainItemWrapper *accountNumberItem;
+@property (nonatomic, strong) ExampleAppDataObject* theAppDataObject;
+@property (nonatomic, strong) KeychainItemWrapper *passwordItem;
+@property (nonatomic, strong) KeychainItemWrapper *accountNumberItem;
 
 //数据模型对象
 @property(strong,nonatomic) NSManagedObjectModel *managedObjectModel;

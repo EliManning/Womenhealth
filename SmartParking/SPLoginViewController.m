@@ -94,7 +94,7 @@
             theDataObject.username = [resultArray objectAtIndex:2];
             NSLog(@"%@",theDataObject.userID);
             NSLog(@"%@",theDataObject.username);
-            UIDevice *dev = [UIDevice currentDevice];
+        //    UIDevice *dev = [UIDevice currentDevice];
         //NSLog(@"device uid: %@",dev.uniqueIdentifier);
        //     [self writeAPNSDeviceUid:theDataObject.userID Arg2:dev.uniqueIdentifier];
         //    [self writeAPNSMessage:theDataObject.userID Arg2:dev.uniqueIdentifier];
