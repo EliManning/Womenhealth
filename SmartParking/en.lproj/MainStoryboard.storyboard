@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="wDE-VV-zfs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="wDE-VV-zfs">
     <dependencies>
         <deployment version="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -1146,117 +1146,6 @@ Yanfeng Geng - PhD Student at Boston University; gengyf@bu.edu
         <image name="9cc9044978f0f736ae42c09a0a55b319eac4131b.png" width="256" height="256"/>
         <image name="Boston_University_Logo.png" width="600" height="269"/>
     </resources>
-    <classes>
-        <class className="AFImageViewer" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AFImageViewer.h"/>
-        </class>
-        <class className="SPAboutViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPAboutViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tblSimpleTable" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="SPAccountViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPAccountViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="accountBalance" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="arriveTime" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="parkFee" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="parkTime" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="plate" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="resvFee" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="resvTime" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="username" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="SPChooseViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPChooseViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="buttonClicked:"/>
-                <relationship kind="action" name="logoutButton:"/>
-                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="indicatorSubview" candidateClass="UIView"/>
-                <relationship kind="outlet" name="statusBar" candidateClass="UINavigationBar"/>
-            </relationships>
-        </class>
-        <class className="SPHistoryRecordView" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPHistoryRecordView.h"/>
-            <relationships>
-                <relationship kind="action" name="EditTable:"/>
-                <relationship kind="action" name="backButton:"/>
-                <relationship kind="outlet" name="editButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="tblSimpleTable" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="SPLoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPLoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loginClicked:"/>
-                <relationship kind="outlet" name="password" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="username" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="SPMainMapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPMainMapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton:"/>
-                <relationship kind="action" name="cancelButton:"/>
-                <relationship kind="action" name="parkingButton:"/>
-                <relationship kind="action" name="tutorialButton:"/>
-                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="backButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="bottomToolBar" candidateClass="UIToolbar"/>
-                <relationship kind="outlet" name="cancelButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="infoBar" candidateClass="UINavigationBar"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-                <relationship kind="outlet" name="parkingButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="pickDestination" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="sBar" candidateClass="UISearchBar"/>
-                <relationship kind="outlet" name="timerLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="topToolBar" candidateClass="UIToolbar"/>
-            </relationships>
-        </class>
-        <class className="SPParkingMapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPParkingMapViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton:"/>
-                <relationship kind="action" name="selectSpotButton:"/>
-                <relationship kind="outlet" name="selectButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="SPSignUpViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPSignUpViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="submit:"/>
-                <relationship kind="outlet" name="confirmPasswordTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="passWordTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="userNameTextField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="SPUpdateInfoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPUpdateInfoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="confirmButton:"/>
-                <relationship kind="outlet" name="newplatetxt" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="newpwtxt" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="oldpwtxt" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="usernametxt" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="SPWelcomeViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPWelcomeViewController.h"/>
-        </class>
-        <class className="SPsettingsViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPsettingsViewController.h"/>
-        </class>
-        <class className="TutorialViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TutorialViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="imageViewer" candidateClass="AFImageViewer"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

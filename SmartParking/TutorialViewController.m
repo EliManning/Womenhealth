@@ -32,7 +32,7 @@
 
 -(NSArray *) images
 {
-    NSArray *imageNames = [NSArray arrayWithObjects:@"t1.PNG", @"t2.PNG", @"t3.PNG",@"t4.PNG",@"t5.PNG",@"t6.PNG",@"t7.PNG",@"t8.PNG",@"t9.PNG",nil];
+    NSArray *imageNames = [NSArray arrayWithObjects:@"t1.png", @"t2.png", @"t3.png",@"t4.png",@"t5.png",@"t6.png", nil];
     NSMutableArray *images = [NSMutableArray array];
     
     for (NSString *imageName in imageNames) [images addObject:[UIImage imageNamed:imageName]];
