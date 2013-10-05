@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>757A0CF1-BB35-43EA-8FF0-D3333AD68A84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>smartparking</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29246B97-1CA0-47F8-AB0F-944724D7C0C2</key>
+		<string>https://github.com/EliManning/BUSmartParking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>smartparking.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29246B97-1CA0-47F8-AB0F-944724D7C0C2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EliManning/BUSmartParking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29246B97-1CA0-47F8-AB0F-944724D7C0C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29246B97-1CA0-47F8-AB0F-944724D7C0C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BUSmartParking</string>
+		</dict>
+	</array>
+</dict>
+</plist>

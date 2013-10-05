@@ -273,6 +273,8 @@ static int distance = 0;
     
     radiusOverlay = [MKCircle circleWithCenterCoordinate:pAnnotation.coordinate radius:pAnnotation.radius];
     closeRadiusOverlay = [MKCircle circleWithCenterCoordinate:pAnnotation.coordinate radius:pAnnotation.closeRadius];
+    [self.mapView addOverlay:radiusOverlay level:MKOverlayLevelAboveLabels];
+    [self.mapView addOverlay:closeRadiusOverlay level:MKOverlayLevelAboveLabels];
 //    [self.mapView addOverlay:radiusOverlay];
 //    [self.mapView addOverlay:closeRadiusOverlay];
         
