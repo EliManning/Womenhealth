@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gua-Zz-8Nu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xqu-1h-GPF">
     <dependencies>
         <deployment version="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -260,7 +260,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xxQ-DM-iwW">
-                                <rect key="frame" x="100" y="241" width="120" height="35"/>
+                                <rect key="frame" x="100" y="186" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -274,7 +274,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Iue-Xj-S5X">
-                                <rect key="frame" x="100" y="284" width="120" height="35"/>
+                                <rect key="frame" x="100" y="228" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -288,22 +288,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ds-ah-xBu">
-                                <rect key="frame" x="15" y="56" width="291" height="89"/>
+                                <rect key="frame" x="15" y="50" width="291" height="92"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Rkp-4h-3SO">
-                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ZkR-2J-UdC">
-                                <rect key="frame" x="26" y="153" width="269" height="30"/>
+                                <rect key="frame" x="26" y="150" width="269" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aAP-jW-THx">
-                                <rect key="frame" x="100" y="326" width="120" height="35"/>
+                                <rect key="frame" x="100" y="270" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -317,7 +313,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vNn-4t-NuT">
-                                <rect key="frame" x="8" y="241" width="68" height="68"/>
+                                <rect key="frame" x="15" y="179" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="back.png">
@@ -332,7 +328,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wCA-yo-Y8B">
-                                <rect key="frame" x="238" y="241" width="68" height="68"/>
+                                <rect key="frame" x="238" y="179" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="forward.png">
@@ -346,6 +342,10 @@
                                     <action selector="nextQuestionButton:" destination="xqu-1h-GPF" eventType="touchUpInside" id="SpL-CA-fos"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="vPw-SM-bnu">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -387,6 +387,10 @@ Changes to the application:
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="717-BW-FU6">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" id="zJh-Sz-uMF">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -580,31 +584,21 @@ Changes to the application:
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="5HD-DP-3B4">
-                                <rect key="frame" x="7" y="231" width="299" height="309"/>
-                                <string key="text">Colorectal cancer is the second leading cause of death from cancer in the United States. Your health care provider recommends that you be screened for colorectal cancer as part of maintaining your health. Colorectal cancer is a disease in which cancer cells form in the colon or the rectum. </string>
-                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <navigationBar opaque="NO" contentMode="scaleToFill" id="YJ0-0y-Rnm">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="K7Y-4x-Vin">
+                                    <navigationItem title="Screening" id="K7Y-4x-Vin">
                                         <barButtonItem key="rightBarButtonItem" title="Next" id="zA5-JH-KEe">
                                             <connections>
-                                                <segue destination="H9t-VG-yWA" kind="push" id="g4I-fl-ssV"/>
+                                                <segue destination="Yg8-Tf-vmQ" kind="push" id="Mi9-6I-d2F"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Pbj-0a-Ca5">
-                                <rect key="frame" x="0.0" y="44" width="320" height="417"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to MyLife Cloud " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lFr-Sp-x05">
-                                <rect key="frame" x="25" y="81" width="271" height="21"/>
+                                <rect key="frame" x="25" y="72" width="271" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -614,13 +608,19 @@ Changes to the application:
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="bhr-eW-Gpd">
-                                <rect key="frame" x="8" y="120" width="305" height="118"/>
-                                <string key="text">MyLife Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer. Here is a brief introduction of colorectal cancer:</string>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="oL8-h8-oRz">
+                                <rect key="frame" x="12" y="101" width="300" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">My Life Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer.  This app is designed to assist you in making an informed decision about the type of colorectal cancer screening that may be best for you.  You will learn about your risk to colorectal cancer, identify your beliefs about colorectal cancer, learn about screening options and the benefits and risks related to colorectal cancer screening. Based on your responses, the colorectal cancer screening best suited for you will be displayed. Once you  are done and have your results, take time to talk to your health care provider about your results and get screened for colorectal cancer.
+</mutableString>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="kbV-hM-52V">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -630,7 +630,52 @@ Changes to the application:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c16-Eb-MKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="-155"/>
+            <point key="canvasLocation" x="-156" y="-160"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rr2-Yw-eaa">
+            <objects>
+                <viewController id="Yg8-Tf-vmQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JAC-IF-aqH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar opaque="NO" contentMode="scaleToFill" id="dvs-iS-RC3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="XJE-eQ-SpB">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="pAz-wa-n2Y">
+                                            <connections>
+                                                <segue destination="ZmU-rA-EjE" kind="push" id="aEd-Ks-bRh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="NVf-AO-psU">
+                                            <connections>
+                                                <segue destination="H9t-VG-yWA" kind="push" id="ZfT-Cx-Uoa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="a7T-TP-Kz4">
+                                <rect key="frame" x="11" y="106" width="299" height="334"/>
+                                <string key="text">Colorectal cancer is the second leading cause of death from cancer in the United States. Your health care provider recommends that you be screened for colorectal cancer as part of maintaining your health. Colorectal cancer is a disease in which cancer cells form in the colon or the rectum. </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="fL6-6H-9I0">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WVy-aJ-dSY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZeO-6M-0TJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="-166"/>
         </scene>
         <!--Risk Assess View Controller-->
         <scene sceneID="Oa2-9X-AxD">
@@ -653,11 +698,7 @@ Changes to the application:
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Risk Assessment" id="5jO-Xc-wxw">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="jpT-h3-7ct">
-                                            <connections>
-                                                <segue destination="ZmU-rA-EjE" kind="push" id="O1l-fj-rdd"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="jpT-h3-7ct"/>
                                         <barButtonItem key="rightBarButtonItem" title="Next" id="a46-ZL-6WA">
                                             <connections>
                                                 <action selector="nextButton:" destination="H9t-VG-yWA" id="SYD-MU-eqr"/>
@@ -899,7 +940,7 @@ Changes to the application:
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="sSq-xe-ufO">
+                                    <navigationItem title="Screening" id="sSq-xe-ufO">
                                         <barButtonItem key="backBarButtonItem" title="Back" id="aSs-Ic-vfw"/>
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="xvP-qG-XbV">
                                             <connections>
@@ -973,7 +1014,7 @@ Changes to the application:
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="YkX-qE-VPq">
+                                    <navigationItem title="Screening" id="YkX-qE-VPq">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="u08-ss-SZK">
                                             <connections>
                                                 <segue destination="8Ug-sz-Vss" kind="push" id="Kdt-zg-vaq"/>
@@ -1038,7 +1079,7 @@ Changes to the application:
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="cam-Mu-fwH">
+                                    <navigationItem title="Screening" id="cam-Mu-fwH">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="4Z3-AT-chn">
                                             <connections>
                                                 <segue destination="DGG-eT-P8h" kind="push" id="ZIb-3W-rSS"/>
@@ -1167,7 +1208,7 @@ Changes to the application:
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="X5e-5C-dxt">
-                                <rect key="frame" x="20" y="147" width="300" height="313"/>
+                                <rect key="frame" x="10" y="138" width="300" height="313"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">
 The support of family and friends can make all the difference in the world in completing a colorectal cancer screening. 
@@ -1200,8 +1241,8 @@ Do you know there are many types of support that can help you make a decision ab
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="fWg-fl-0ba">
-                                <rect key="frame" x="0.0" y="44" width="320" height="417"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Fzz-dM-SRA">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1542,7 +1583,7 @@ Do you know there are many types of support that can help you make a decision ab
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Ex-s2-Ghe">
                                 <rect key="frame" x="20" y="126" width="280" height="208"/>
-                                <string key="text">Making an informed decision about colorectal cancer screening can be difficult.  Colorectal cancer screening tests have risks and benefits. It is important that you know what those risks and benefits are and what risks you are comfortable with before you select a colorectal cancer test. </string>
+                                <string key="text">Colorectal cancer screening tests have risks and benefits. It is important that you know what those risks and benefits are and what risks you are comfortable with before you select a colorectal cancer test. </string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1565,8 +1606,8 @@ Do you know there are many types of support that can help you make a decision ab
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="utR-PJ-mMS">
-                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="SYM-u6-dqQ">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1791,7 +1832,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="dH6-Wb-U0B">
+                                    <navigationItem title="Screening" id="dH6-Wb-U0B">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="laU-xP-gAN">
                                             <connections>
                                                 <segue destination="pWG-aN-NJH" kind="push" id="oEB-Gf-Dxw"/>
@@ -1843,30 +1884,162 @@ Do you know there are many types of support that can help you make a decision ab
         <image name="forward.png" width="128" height="128"/>
         <image name="kerdojel96.png" width="96" height="96"/>
     </resources>
+    <classes>
+        <class className="FirstChoiceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstChoiceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="colonButton:"/>
+                <relationship kind="action" name="fobtButton:"/>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="outlet" name="colonButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fobtButtton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="IntroViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IntroViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="riskBar" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="QuestionOneViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuestionOneViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="nextQuestionButton:"/>
+                <relationship kind="action" name="pressNo:"/>
+                <relationship kind="action" name="pressYes:"/>
+                <relationship kind="action" name="previousButton:"/>
+                <relationship kind="outlet" name="noButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="questionBar" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="questionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="yesButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="QuestionTwoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuestionTwoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="nextQuestionButton:"/>
+                <relationship kind="action" name="pressDontKnow:"/>
+                <relationship kind="action" name="pressNo:"/>
+                <relationship kind="action" name="pressYes:"/>
+                <relationship kind="action" name="previousButton:"/>
+                <relationship kind="outlet" name="DontKnowButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="NoButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="YesButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="questionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="undoButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ResultViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ResultViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backToFirstPage:"/>
+                <relationship kind="action" name="clearButtonClicked:"/>
+                <relationship kind="action" name="logoutButton:"/>
+                <relationship kind="action" name="submitButton:"/>
+                <relationship kind="outlet" name="clearButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="colonResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fobtResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="resultLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="RiskAssessViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RiskAssessViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="fifthButtonPressed:"/>
+                <relationship kind="action" name="firstButtonPressed:"/>
+                <relationship kind="action" name="fourthButtonPressed:"/>
+                <relationship kind="action" name="nextArrowPressed:"/>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="previousArrowPressed:"/>
+                <relationship kind="action" name="secondButtonPressed:"/>
+                <relationship kind="action" name="thirdButtonPressed:"/>
+                <relationship kind="outlet" name="ageField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="fifthButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="firstButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fourthButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="nextArrow" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="pickerView" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="previousArrow" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="questionBar" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="secondButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="thirdButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="RiskScoreViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RiskScoreViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="notifyLater:"/>
+                <relationship kind="outlet" name="riskResultBar" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="SecondChoiceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondChoiceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ColonButton:"/>
+                <relationship kind="action" name="fobtButton:"/>
+                <relationship kind="action" name="nextButton:"/>
+            </relationships>
+        </class>
+        <class className="SignUpViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignUpViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="submit:"/>
+                <relationship kind="outlet" name="confirmPasswordTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passWordTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userNameTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ThirdChoiceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdChoiceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ColonButton:"/>
+                <relationship kind="action" name="fobtButton:"/>
+                <relationship kind="action" name="nextButton:"/>
+            </relationships>
+        </class>
+        <class className="loginPageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/loginPageViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loginButton:"/>
+                <relationship kind="outlet" name="password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="username" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="prepareViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/prepareViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="text" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="X4v-ux-U7y"/>
-        <segue reference="C5I-8P-D3P"/>
-        <segue reference="eH1-nV-wCQ"/>
-        <segue reference="rtw-xN-Yz4"/>
-        <segue reference="jc0-8S-5R8"/>
-        <segue reference="wz8-AF-Vz7"/>
-        <segue reference="rHa-J8-h6X"/>
-        <segue reference="oEB-Gf-Dxw"/>
+        <segue reference="X30-Nr-Zfa"/>
+        <segue reference="N76-va-cK8"/>
+        <segue reference="gKk-Nr-XOe"/>
         <segue reference="5LD-Do-u4H"/>
-        <segue reference="BsZ-zT-2D6"/>
-        <segue reference="Ldc-O2-TIq"/>
-        <segue reference="hHK-nL-6vk"/>
-        <segue reference="6HM-Ji-DCF"/>
-        <segue reference="QVZ-w2-GyJ"/>
+        <segue reference="PJa-nZ-ZRU"/>
         <segue reference="R0X-cn-1ye"/>
-        <segue reference="g4I-fl-ssV"/>
-        <segue reference="jyV-cl-Dfh"/>
+        <segue reference="gtN-Mq-hjL"/>
+        <segue reference="QVZ-w2-GyJ"/>
         <segue reference="fJ6-qp-Gv4"/>
         <segue reference="rvI-6r-cUC"/>
+        <segue reference="jyV-cl-Dfh"/>
+        <segue reference="yMw-Sh-BtH"/>
+        <segue reference="oEB-Gf-Dxw"/>
+        <segue reference="rHa-J8-h6X"/>
+        <segue reference="bvS-G4-sco"/>
+        <segue reference="Kcf-hr-88c"/>
+        <segue reference="BsZ-zT-2D6"/>
+        <segue reference="Kdt-zg-vaq"/>
+        <segue reference="X4v-ux-U7y"/>
     </inferredMetricsTieBreakers>
 </document>

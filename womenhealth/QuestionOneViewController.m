@@ -40,7 +40,7 @@
     theDataObject.beliefScore = 0;
     [self.questionLabel setText:@"It is extremely likely that I will get colorectal cancer."];
     [self labelAppear];
-
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -63,13 +63,13 @@
      }
                      completion:^(BOOL finished)
      {
-        
+         
      }];
 }
 -(void)labelDisappear{
     NSLog(@"The score is %d Count is %d", theDataObject.beliefScore, theDataObject.questionCount);
-
-        [UIView animateWithDuration:0.2
+    
+    [UIView animateWithDuration:0.2
                           delay:0.0
                         options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAllowUserInteraction
                      animations:^(void)
@@ -79,7 +79,7 @@
                      completion:^(BOOL finished)
      {
          if(finished){
-
+             
              if(theDataObject.questionCount == 1){
                  [self.questionLabel setText:@"Developing colorectal cancer is currently a possibility for me."];
              }
@@ -105,7 +105,7 @@
              else if(theDataObject.questionCount == 8){
                  [self.questionLabel setText:@"I cannot remember to schedule an appointment for a colonoscopy."];
              }
-                         
+             
              [self labelAppear];
          }
      }];
@@ -114,9 +114,9 @@
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
-      NSLog(@"%d",theDataObject.questionCount);
+    NSLog(@"%d",theDataObject.questionCount);
     if ([identifier isEqualToString:@"next4"]&& theDataObject.questionCount < 8) {
-         NSLog(@"dksfkldsf");
+        NSLog(@"dksfkldsf");
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle: @""
                               message: @"Please finish the questions first."
@@ -124,12 +124,12 @@
                               cancelButtonTitle:@"OK"
                               otherButtonTitles:nil];
         [alert show];
-
+        
         return NO;
     }
-  
+    
     else{
-         NSLog(@"dfdsf");
+        NSLog(@"dfdsf");
         return YES;
     }
 }
@@ -151,15 +151,15 @@
     else{
         lastPoint = 0;
     }
-
+    
     [self performSelector:@selector(toggleButton2:) withObject:sender afterDelay:0];
 }
 
 - (IBAction)nextButton:(id)sender {
-   
-        NSLog(@"question count %d",theDataObject.questionCount);
-        [self performSegueWithIdentifier: @"next4" sender:self];
- 
+    
+    NSLog(@"question count %d",theDataObject.questionCount);
+    [self performSegueWithIdentifier: @"next4" sender:self];
+    
 }
 
 - (IBAction)previousButton:(id)sender {
@@ -175,11 +175,11 @@
         [alert show];
         return;
     }
-
+    
     NSLog(@"Subtract risk count: %d, Score: %d ",theDataObject.riskCount, lastPoint);
     lastPoint =  [[myDictionary objectForKey:[NSString stringWithFormat:@"%d",theDataObject.questionCount]] intValue];
     theDataObject.beliefScore -= lastPoint;
-  
+    
     if (theDataObject.questionCount > 0 ) {
         theDataObject.questionCount -=1;
     }
@@ -190,11 +190,11 @@
 }
 
 - (IBAction)nextQuestionButton:(id)sender {
-
+    
     [myDictionary setObject:[NSString stringWithFormat:@"%d",lastPoint] forKey:[NSString stringWithFormat:@"%d",theDataObject.questionCount]];
     NSLog(@"set score %@ to risk count %d",[myDictionary objectForKey:[NSString stringWithFormat:@"%d",theDataObject.questionCount]] , theDataObject.questionCount);
     
-   
+    
     if(!yesSelected && !noSelected ){
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle: @""
@@ -218,11 +218,13 @@
     else if(theDataObject.beliefScore > 0 && theDataObject.questionCount >= 8){
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle: @""
-                              message: @"Many people have the same thoughts as you about colorectal cancer screening and still get screened. Most cancer survivors are colorectal cancer survivors.  There should be nothing embarrassing or too time consuming about finding colorectal cancer when it is most treatable. This app will provide you with some of the information you need to understand colorectal cancer screening. Please click Next to continue."
-                              delegate: nil
+                              message: @"Many people have the same thoughts as you about colorectal cancer screening and still get screened. Most cancer survivors are colorectal cancer survivors.  There should be nothing embarrassing or too time consuming about finding colorectal cancer when it is most treatable. This app will provide you with some of the information you need to understand colorectal cancer screening."
+                              delegate: self
                               cancelButtonTitle:@"OK"
                               otherButtonTitles:nil];
+        [alert setTag:1];
         [alert show];
+        
         return;
         
         
@@ -230,10 +232,23 @@
     if (theDataObject.questionCount > 0 ) {
         theDataObject.questionCount +=1;
     }
-
+    
     [self recoverButtons];
     [self labelDisappear];
 }
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if(alertView.tag == 1){
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle: @""
+                              message: @"Please click Next to continue."
+                              delegate: nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+    }
+    
+}
+
 - (ExampleAppDataObject*) theAppDataObject;
 {
 	id<AppDelegateProtocol> theDelegate = (id<AppDelegateProtocol>) [UIApplication sharedApplication].delegate;
@@ -241,7 +256,7 @@
 	return theDataObject;
 }
 - (void)viewDidUnload {
- 
+    
     [self setQuestionBar:nil];
     [self setYesButton:nil];
     [self setNoButton:nil];
@@ -269,7 +284,7 @@
         if(yesSelected){
             [self performSelector:@selector(pressYes:) withObject:self.yesButton afterDelay:0];
         }
-             
+        
         theDataObject.beliefScore += lastPoint;
     }
     else{

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gua-Zz-8Nu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xqu-1h-GPF">
     <dependencies>
         <deployment version="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -30,7 +30,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Women_Khakis.jpg" id="E9O-Q8-zxz">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="422"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="408"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="MyLife Cloud" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nGA-1A-Tsn">
                                 <rect key="frame" x="37" y="207" width="246" height="98"/>
@@ -39,11 +39,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" id="Q0D-xq-ofc">
-                                <rect key="frame" x="0.0" y="421" width="320" height="127"/>
+                                <rect key="frame" x="0.0" y="406" width="320" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rmF-da-XtL">
-                                        <rect key="frame" x="219" y="35" width="46" height="46"/>
+                                        <rect key="frame" x="218" y="11" width="46" height="46"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" backgroundImage="kerdojel96.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -57,13 +57,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zjv-OK-YpF">
-                                        <rect key="frame" x="220" y="75" width="45" height="21"/>
+                                        <rect key="frame" x="219" y="57" width="45" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Wrb-AJ-rTV">
-                                        <rect key="frame" x="137" y="29" width="46" height="46"/>
+                                        <rect key="frame" x="137" y="11" width="46" height="46"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" backgroundImage="1359540668_list-add-user.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,7 +77,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DYa-41-sqU">
-                                        <rect key="frame" x="44" y="29" width="46" height="46"/>
+                                        <rect key="frame" x="49" y="11" width="46" height="46"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" backgroundImage="1359541388_door_in.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -91,13 +91,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aOB-J0-Qeb">
-                                        <rect key="frame" x="51" y="75" width="56" height="21"/>
+                                        <rect key="frame" x="54" y="57" width="56" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sign up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aiz-Am-PNR">
-                                        <rect key="frame" x="131" y="75" width="58" height="21"/>
+                                        <rect key="frame" x="131" y="57" width="58" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -124,7 +124,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="glo-bF-1H6">
-                                <rect key="frame" x="100" y="384" width="120" height="35"/>
+                                <rect key="frame" x="100" y="373" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -138,7 +138,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DDI-XC-l3r">
-                                <rect key="frame" x="100" y="426" width="120" height="35"/>
+                                <rect key="frame" x="100" y="431" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -176,15 +176,19 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="2eP-eB-naR">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MSP-fi-6ui">
-                                <rect key="frame" x="15" y="47" width="310" height="144"/>
+                                <rect key="frame" x="20" y="60" width="310" height="144"/>
                                 <string key="text">What you think about colorectal cancer screening and colorectal cancer is important. What do you believe about colorectal cancer and colorectal cancer screening? </string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Bt-7N-bo1">
-                                <rect key="frame" x="13" y="384" width="68" height="68"/>
+                                <rect key="frame" x="13" y="373" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="back.png">
@@ -199,7 +203,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Th9-hy-OJl">
-                                <rect key="frame" x="239" y="384" width="68" height="68"/>
+                                <rect key="frame" x="239" y="373" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="forward.png">
@@ -256,7 +260,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xxQ-DM-iwW">
-                                <rect key="frame" x="100" y="291" width="120" height="35"/>
+                                <rect key="frame" x="100" y="224" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -270,7 +274,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Iue-Xj-S5X">
-                                <rect key="frame" x="100" y="342" width="120" height="35"/>
+                                <rect key="frame" x="100" y="275" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -284,18 +288,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ds-ah-xBu">
-                                <rect key="frame" x="15" y="69" width="291" height="89"/>
+                                <rect key="frame" x="15" y="55" width="291" height="97"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ZkR-2J-UdC">
-                                <rect key="frame" x="26" y="184" width="269" height="30"/>
+                                <rect key="frame" x="26" y="160" width="269" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aAP-jW-THx">
-                                <rect key="frame" x="100" y="393" width="120" height="35"/>
+                                <rect key="frame" x="100" y="326" width="120" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -309,7 +313,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vNn-4t-NuT">
-                                <rect key="frame" x="5" y="299" width="68" height="68"/>
+                                <rect key="frame" x="15" y="207" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="back.png">
@@ -324,7 +328,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wCA-yo-Y8B">
-                                <rect key="frame" x="243" y="299" width="68" height="68"/>
+                                <rect key="frame" x="238" y="207" width="68" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="forward.png">
@@ -338,6 +342,10 @@
                                     <action selector="nextQuestionButton:" destination="xqu-1h-GPF" eventType="touchUpInside" id="SpL-CA-fos"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="DBC-bJ-PTE">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -379,7 +387,7 @@ Changes to the application:
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="885-Cm-y2q">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="CaP-MU-4Qz">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -470,8 +478,8 @@ Changes to the application:
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="9m7-NS-WaL">
-                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="sbU-T4-Yzg">
+                                <rect key="frame" x="0.0" y="43" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -550,8 +558,8 @@ Changes to the application:
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="UfL-wW-zaW">
-                                <rect key="frame" x="-7" y="44" width="320" height="634"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="imR-Sl-uJZ">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -576,12 +584,6 @@ Changes to the application:
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="5HD-DP-3B4">
-                                <rect key="frame" x="11" y="277" width="299" height="309"/>
-                                <string key="text">Colorectal cancer is the second leading cause of death from cancer in the United States. Your health care provider recommends that you be screened for colorectal cancer as part of maintaining your health. Colorectal cancer is a disease in which cancer cells form in the colon or the rectum. </string>
-                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <navigationBar opaque="NO" contentMode="scaleToFill" id="YJ0-0y-Rnm">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -589,14 +591,14 @@ Changes to the application:
                                     <navigationItem title="Intro" id="K7Y-4x-Vin">
                                         <barButtonItem key="rightBarButtonItem" title="Next" id="zA5-JH-KEe">
                                             <connections>
-                                                <segue destination="H9t-VG-yWA" kind="push" id="g4I-fl-ssV"/>
+                                                <segue destination="Yg8-Tf-vmQ" kind="push" id="Mi9-6I-d2F"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to MyLife Cloud " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lFr-Sp-x05">
-                                <rect key="frame" x="25" y="97" width="271" height="21"/>
+                                <rect key="frame" x="25" y="68" width="271" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -606,14 +608,16 @@ Changes to the application:
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="bhr-eW-Gpd">
-                                <rect key="frame" x="8" y="151" width="305" height="118"/>
-                                <string key="text">MyLife Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer. Here is a brief introduction of colorectal cancer:</string>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="oL8-h8-oRz">
+                                <rect key="frame" x="12" y="97" width="300" height="445"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">My Life Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer.  This app is designed to assist you in making an informed decision about the type of colorectal cancer screening that may be best for you.  You will learn about your risk to colorectal cancer, identify your beliefs about colorectal cancer, learn about screening options and the benefits and risks related to colorectal cancer screening. Based on your responses, the colorectal cancer screening best suited for you will be displayed. Once you  are done and have your results, take time to talk to your health care provider about your results and get screened for colorectal cancer.
+</string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="9sK-3e-Lc7">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="qzM-GI-iNU">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -626,7 +630,52 @@ Changes to the application:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c16-Eb-MKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="-155"/>
+            <point key="canvasLocation" x="-161" y="-166"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rr2-Yw-eaa">
+            <objects>
+                <viewController id="Yg8-Tf-vmQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JAC-IF-aqH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar opaque="NO" contentMode="scaleToFill" id="dvs-iS-RC3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="XJE-eQ-SpB">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="pAz-wa-n2Y">
+                                            <connections>
+                                                <segue destination="ZmU-rA-EjE" kind="push" id="aEd-Ks-bRh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="NVf-AO-psU">
+                                            <connections>
+                                                <segue destination="H9t-VG-yWA" kind="push" id="ZfT-Cx-Uoa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="a7T-TP-Kz4">
+                                <rect key="frame" x="11" y="98" width="299" height="381"/>
+                                <string key="text">Colorectal cancer is the second leading cause of death from cancer in the United States. Your health care provider recommends that you be screened for colorectal cancer as part of maintaining your health. Colorectal cancer is a disease in which cancer cells form in the colon or the rectum. </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="vX3-eu-Leb">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WVy-aJ-dSY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZeO-6M-0TJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="-166"/>
         </scene>
         <!--Risk Assess View Controller-->
         <scene sceneID="Oa2-9X-AxD">
@@ -642,7 +691,7 @@ Changes to the application:
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="HFh-QJ-QPP">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="48E-Fg-arI">
                                 <rect key="frame" x="2" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -653,11 +702,7 @@ Changes to the application:
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Risk Assessment" id="5jO-Xc-wxw">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="jpT-h3-7ct">
-                                            <connections>
-                                                <segue destination="ZmU-rA-EjE" kind="push" id="O1l-fj-rdd"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="jpT-h3-7ct"/>
                                         <barButtonItem key="rightBarButtonItem" title="Next" id="a46-ZL-6WA">
                                             <connections>
                                                 <action selector="nextButton:" destination="H9t-VG-yWA" id="SYD-MU-eqr"/>
@@ -867,7 +912,7 @@ Changes to the application:
                                     <action selector="notifyLater:" destination="WDc-7L-Qg2" eventType="touchUpInside" id="MYm-TH-UQ4"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="iBQ-br-h9X">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="x7g-v7-yUH">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -892,10 +937,10 @@ Changes to the application:
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" id="upH-qB-Jcu">
-                                <rect key="frame" x="0.0" y="-1" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="sSq-xe-ufO">
+                                    <navigationItem title="Screening" id="sSq-xe-ufO">
                                         <barButtonItem key="backBarButtonItem" title="Back" id="aSs-Ic-vfw"/>
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="xvP-qG-XbV">
                                             <connections>
@@ -911,20 +956,20 @@ Changes to the application:
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Based upon your personal health history and family health history you are at " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WHU-f2-4Lg">
-                                <rect key="frame" x="13" y="116" width="302" height="85"/>
+                                <rect key="frame" x="15" y="98" width="302" height="85"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ui2-sp-iUo">
-                                <rect key="frame" x="13" y="211" width="292" height="129"/>
+                                <rect key="frame" x="15" y="267" width="292" height="129"/>
                                 <string key="text">This app will give you information about testing for colorectal cancer so you can learn about colorectal cancer and select the test that’s best for you.</string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cCI-Z0-3bM">
-                                <rect key="frame" x="112" y="180" width="172" height="21"/>
+                                <rect key="frame" x="108" y="162" width="172" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text"> for colorectal cancer. 
 </string>
@@ -933,14 +978,14 @@ Changes to the application:
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Average Risk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="36F-Ti-fC5">
-                                <rect key="frame" x="13" y="180" width="100" height="23"/>
+                                <rect key="frame" x="10" y="161" width="100" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="1.6086347815057801e-06" blue="0.00031887755102044668" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="RIJ-UI-neJ">
-                                <rect key="frame" x="0.0" y="43" width="320" height="504"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="fnI-9y-PVA">
+                                <rect key="frame" x="1" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -969,7 +1014,7 @@ Changes to the application:
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="YkX-qE-VPq">
+                                    <navigationItem title="Screening" id="YkX-qE-VPq">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="u08-ss-SZK">
                                             <connections>
                                                 <segue destination="8Ug-sz-Vss" kind="push" id="Kdt-zg-vaq"/>
@@ -1002,7 +1047,7 @@ Changes to the application:
                                 <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="18"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Vdj-hR-rqJ">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="1RW-Cn-xjg">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1030,11 +1075,15 @@ Changes to the application:
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Wa8-o9-29r">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" id="f5t-5p-mgX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="cam-Mu-fwH">
+                                    <navigationItem title="Screening" id="cam-Mu-fwH">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="4Z3-AT-chn">
                                             <connections>
                                                 <segue destination="DGG-eT-P8h" kind="push" id="ZIb-3W-rSS"/>
@@ -1053,10 +1102,6 @@ Changes to the application:
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="hhi-YP-Won">
-                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1075,7 +1120,7 @@ Changes to the application:
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" id="6sI-qC-NHK" customClass="Res">
-                                <rect key="frame" x="-1" y="0.0" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="-1" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Result" id="AtX-JH-65C">
@@ -1093,14 +1138,14 @@ Changes to the application:
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jdr-fE-xOb">
-                                <rect key="frame" x="6" y="78" width="314" height="88"/>
+                                <rect key="frame" x="8" y="78" width="304" height="88"/>
                                 <string key="text">The colorectal cancer screening test that best matches your risk for colorectal cancer, screening preferences and answers is the</string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9GV-z4-TVK">
-                                <rect key="frame" x="59" y="230" width="202" height="39"/>
+                                <rect key="frame" x="59" y="238" width="202" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Clear Result and Restart">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1119,12 +1164,8 @@ Changes to the application:
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="ZHU-nJ-2Lf">
-                                <rect key="frame" x="-7" y="44" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZHl-7o-hc7">
-                                <rect key="frame" x="58" y="284" width="202" height="39"/>
+                                <rect key="frame" x="58" y="285" width="202" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Submit">
@@ -1138,7 +1179,11 @@ Changes to the application:
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Women different.jpg" id="mz7-QP-ji0">
-                                <rect key="frame" x="20" y="330" width="266" height="174"/>
+                                <rect key="frame" x="26" y="332" width="266" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="gXT-X3-2DG">
+                                <rect key="frame" x="-1" y="43" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1163,7 +1208,7 @@ Changes to the application:
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="X5e-5C-dxt">
-                                <rect key="frame" x="10" y="174" width="300" height="313"/>
+                                <rect key="frame" x="20" y="108" width="300" height="313"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">
 The support of family and friends can make all the difference in the world in completing a colorectal cancer screening. 
@@ -1191,12 +1236,12 @@ Do you know there are many types of support that can help you make a decision ab
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Support for colorectal cancer screening" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4b3-eP-c3A">
-                                <rect key="frame" x="12" y="106" width="296" height="55"/>
+                                <rect key="frame" x="12" y="58" width="296" height="55"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="zo9-yj-pWM">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="MQW-7w-s6v">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1269,7 +1314,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="XAh-OE-YG0">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="uRj-ix-6dJ">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1324,8 +1369,8 @@ Do you know there are many types of support that can help you make a decision ab
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Owf-Zy-WA4">
-                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="xJO-vW-xFf">
+                                <rect key="frame" x="0.0" y="35" width="320" height="513"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1398,8 +1443,8 @@ Do you know there are many types of support that can help you make a decision ab
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="3tm-GF-IBf">
-                                <rect key="frame" x="-1" y="44" width="320" height="504"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="m9y-YR-1qT">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1450,7 +1495,7 @@ Do you know there are many types of support that can help you make a decision ab
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="aHS-Dv-EeM">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="RLY-YW-zEG">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1472,13 +1517,17 @@ Do you know there are many types of support that can help you make a decision ab
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Ibd-Yk-l4W">
-                                <rect key="frame" x="17" y="172" width="300" height="292"/>
+                                <rect key="frame" x="20" y="172" width="300" height="292"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">The results of the fecal occult blood test may look to be abnormal when there is no cancer.  This is called a false-positive test result.  A false-positive test result can lead to more testing and anxiety. Additional tests after a false-positive fecal occult blood test may include a colonoscopy.</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="S6I-NJ-etW">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="fecal occult blood test" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M3g-nw-FdT">
                                 <rect key="frame" x="58" y="106" width="250" height="42"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -1509,10 +1558,6 @@ Do you know there are many types of support that can help you make a decision ab
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="l7G-gJ-6b8">
-                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1520,7 +1565,7 @@ Do you know there are many types of support that can help you make a decision ab
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PcM-RE-oLl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1977" y="483"/>
+            <point key="canvasLocation" x="1973" y="488"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eqg-6Z-8Tj">
@@ -1537,12 +1582,16 @@ Do you know there are many types of support that can help you make a decision ab
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Ex-s2-Ghe">
-                                <rect key="frame" x="20" y="170" width="280" height="208"/>
-                                <string key="text">Making an informed decision about colorectal cancer screening can be difficult.  Colorectal cancer screening tests have risks and benefits. It is important that you know what those risks and benefits are and what risks you are comfortable with before you select a colorectal cancer test. </string>
+                                <rect key="frame" x="20" y="139" width="280" height="208"/>
+                                <string key="text">Colorectal cancer screening tests have risks and benefits. It is important that you know what those risks and benefits are and what risks you are comfortable with before you select a colorectal cancer test. </string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="T3a-Rs-wsq">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" id="a4g-cm-HCt">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1561,10 +1610,6 @@ Do you know there are many types of support that can help you make a decision ab
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="5pS-LA-Ep5">
-                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1572,7 +1617,7 @@ Do you know there are many types of support that can help you make a decision ab
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tjZ-86-Gwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2339" y="483"/>
+            <point key="canvasLocation" x="2410" y="488"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="maz-bt-hvI">
@@ -1583,7 +1628,7 @@ Do you know there are many types of support that can help you make a decision ab
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="dtp-W9-v9Z">
-                                <rect key="frame" x="0.0" y="122" width="319" height="426"/>
+                                <rect key="frame" x="5" y="114" width="310" height="434"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">    How much time does it take to prepare to get tested for colorectal cancer? The FOBT and colonoscopy require different amounts of time and preparation.
     To prepare for the FOBT, your doctor may ask that you avoid the following before this test:  
@@ -1597,6 +1642,10 @@ Do you know there are many types of support that can help you make a decision ab
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="MlN-gz-njl">
+                                <rect key="frame" x="-1" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" id="QFv-Gb-NdZ">
                                 <rect key="frame" x="0.0" y="0.0" width="319" height="44"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1616,16 +1665,12 @@ Do you know there are many types of support that can help you make a decision ab
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZV2-3v-PHw">
-                                <rect key="frame" x="4" y="54" width="320" height="84"/>
+                                <rect key="frame" x="-1" y="44" width="320" height="84"/>
                                 <string key="text">Preparing for your colorectal cancer test
 </string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="ixu-Ge-mLa">
-                                <rect key="frame" x="-1" y="44" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1633,7 +1678,7 @@ Do you know there are many types of support that can help you make a decision ab
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tun-y6-gQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3130" y="457"/>
+            <point key="canvasLocation" x="3124" y="381"/>
         </scene>
         <!--Prepare View Controller-->
         <scene sceneID="9oc-Ib-SGl">
@@ -1644,7 +1689,7 @@ Do you know there are many types of support that can help you make a decision ab
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="r7M-Fn-nQp">
-                                <rect key="frame" x="0.0" y="71" width="320" height="477"/>
+                                <rect key="frame" x="5" y="92" width="320" height="477"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">detailed.  In order for the doctor to see the inner linings of your colon and rectum, both need to be empty and clean. 
@@ -1655,11 +1700,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="LXp-yf-GNT">
-                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="9ZV-wD-u8e">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="xyF-4e-gRv">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1682,7 +1723,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=" Preparing for a colonoscopy is very " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rem-PO-0z6">
-                                <rect key="frame" x="22" y="55" width="275" height="21"/>
+                                <rect key="frame" x="35" y="77" width="275" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1698,7 +1739,7 @@ Do you know there are many types of support that can help you make a decision ab
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgy-7T-gT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3130" y="1033"/>
+            <point key="canvasLocation" x="3129" y="1047"/>
         </scene>
         <!--First Choice View Controller-->
         <scene sceneID="afv-SF-Vlb">
@@ -1761,7 +1802,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="lLJ-7S-qgh">
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="QME-LK-cSh">
                                 <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1791,7 +1832,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Intro" id="dH6-Wb-U0B">
+                                    <navigationItem title="Screening" id="dH6-Wb-U0B">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="laU-xP-gAN">
                                             <connections>
                                                 <segue destination="pWG-aN-NJH" kind="push" id="oEB-Gf-Dxw"/>
@@ -1806,7 +1847,7 @@ Do you know there are many types of support that can help you make a decision ab
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="ITl-3B-CBI">
-                                <rect key="frame" x="0.0" y="169" width="320" height="235"/>
+                                <rect key="frame" x="0.0" y="170" width="320" height="235"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Colonoscopy is a procedure to look inside the rectum and colon for polyps, abnormal areas, or cancer. A colonoscope is inserted through the rectum into the colon.  A colonoscope is a thin, tube-like instrument with a light and a lens for viewing. It may also have a tool to remove polyps or tissue samples, which are checked under a microscope for signs of cancer.</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1819,8 +1860,8 @@ Do you know there are many types of support that can help you make a decision ab
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="wUY-cd-JYa">
-                                <rect key="frame" x="0.0" y="34" width="320" height="504"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="23Y-A0-Rlb">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1981,24 +2022,24 @@ Do you know there are many types of support that can help you make a decision ab
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ZIb-3W-rSS"/>
-        <segue reference="oEB-Gf-Dxw"/>
-        <segue reference="yMw-Sh-BtH"/>
-        <segue reference="wz8-AF-Vz7"/>
-        <segue reference="wTP-Td-jqs"/>
-        <segue reference="BkW-HN-5bs"/>
-        <segue reference="d7f-Le-Dfk"/>
-        <segue reference="YwZ-rt-lmF"/>
-        <segue reference="Ldc-O2-TIq"/>
-        <segue reference="iIx-8g-IsI"/>
-        <segue reference="PJa-nZ-ZRU"/>
-        <segue reference="Z5F-n8-fZL"/>
-        <segue reference="gtN-Mq-hjL"/>
-        <segue reference="QVZ-w2-GyJ"/>
-        <segue reference="DWq-eh-9b9"/>
-        <segue reference="g4I-fl-ssV"/>
+        <segue reference="ZfT-Cx-Uoa"/>
+        <segue reference="rtw-xN-Yz4"/>
         <segue reference="eH1-nV-wCQ"/>
         <segue reference="C5I-8P-D3P"/>
-        <segue reference="rtw-xN-Yz4"/>
+        <segue reference="5LD-Do-u4H"/>
+        <segue reference="Kcf-hr-88c"/>
+        <segue reference="iIx-8g-IsI"/>
+        <segue reference="bvS-G4-sco"/>
+        <segue reference="jc0-8S-5R8"/>
+        <segue reference="oEB-Gf-Dxw"/>
+        <segue reference="ZIb-3W-rSS"/>
+        <segue reference="BsZ-zT-2D6"/>
+        <segue reference="QVZ-w2-GyJ"/>
+        <segue reference="gtN-Mq-hjL"/>
+        <segue reference="PJa-nZ-ZRU"/>
+        <segue reference="R0X-cn-1ye"/>
+        <segue reference="fJ6-qp-Gv4"/>
+        <segue reference="rvI-6r-cUC"/>
+        <segue reference="jyV-cl-Dfh"/>
     </inferredMetricsTieBreakers>
 </document>

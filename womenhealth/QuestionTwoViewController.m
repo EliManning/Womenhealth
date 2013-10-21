@@ -15,6 +15,7 @@
     BOOL noSelected;
     BOOL dontKnowSelected;
     NSInteger newAssessScore;
+    BOOL finishFlag;
 }
 
 
@@ -48,6 +49,7 @@
     theDataObject = [self theAppDataObject];
     theDataObject.supportCount = 1;
     newAssessScore = 1;
+    finishFlag = NO;
     self.DontKnowButton.hidden=YES;
     self.textField.hidden = YES;
     [self.questionLabel setText:@"When you get a colonoscopy you will need a ride to and from the screening site. Will getting a ride to your colonoscopy be a problem?"];
@@ -202,7 +204,7 @@
 }
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
-    if ([identifier isEqualToString:@"next5"]&& theDataObject.supportCount < 8) {
+    if ([identifier isEqualToString:@"next5"]&& !finishFlag) {
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle: @""
                               message: @"Please finish the questions first."
@@ -268,6 +270,7 @@
     
     NSLog(@"Count %d %d %d", theDataObject.supportCount,noSelected,dontKnowSelected);
        if (theDataObject.supportCount== 8 || (theDataObject.supportCount == 7 && (noSelected || dontKnowSelected))) {
+           finishFlag = YES;
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle: @""
                               message: @"This is the last question. Please click Next to continue."

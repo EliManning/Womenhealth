@@ -7,56 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41202AF617429D98003CC818 /* 1359540668_list-add-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 41202AF417429D98003CC818 /* 1359540668_list-add-user.png */; };
-		41202AF717429D98003CC818 /* 1359541388_door_in.png in Resources */ = {isa = PBXBuildFile; fileRef = 41202AF517429D98003CC818 /* 1359541388_door_in.png */; };
+		0E91E43C1814EAB100D74070 /* MainStoryboard5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43A1814EAB100D74070 /* MainStoryboard5.storyboard */; };
+		0E91E44F1815602800D74070 /* 114x114_crop_ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43D1815602800D74070 /* 114x114_crop_ladydoc-jpg.png */; };
+		0E91E4501815602800D74070 /* 1359540668_list-add-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43E1815602800D74070 /* 1359540668_list-add-user.png */; };
+		0E91E4511815602800D74070 /* 1359541388_door_in.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43F1815602800D74070 /* 1359541388_door_in.png */; };
+		0E91E4521815602800D74070 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4401815602800D74070 /* back.png */; };
+		0E91E4531815602800D74070 /* CRC ribbon Cover Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4411815602800D74070 /* CRC ribbon Cover Photo.jpg */; };
+		0E91E4541815602800D74070 /* dark_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4421815602800D74070 /* dark_grey.png */; };
+		0E91E4551815602800D74070 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4431815602800D74070 /* Default-568h@2x.png */; };
+		0E91E4561815602800D74070 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4441815602800D74070 /* Default.png */; };
+		0E91E4571815602800D74070 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4451815602800D74070 /* Default@2x.png */; };
+		0E91E4581815602800D74070 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4461815602800D74070 /* forward.png */; };
+		0E91E4591815602800D74070 /* grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4471815602800D74070 /* grey.jpg */; };
+		0E91E45A1815602800D74070 /* kerdojel96.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4481815602800D74070 /* kerdojel96.png */; };
+		0E91E45B1815602800D74070 /* resizedimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4491815602800D74070 /* resizedimage.png */; };
+		0E91E45C1815602800D74070 /* rsz_1ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44A1815602800D74070 /* rsz_1ladydoc-jpg.png */; };
+		0E91E45D1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44B1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png */; };
+		0E91E45E1815602800D74070 /* rsz_ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44C1815602800D74070 /* rsz_ladydoc-jpg.png */; };
+		0E91E45F1815602800D74070 /* Women different.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44D1815602800D74070 /* Women different.jpg */; };
+		0E91E4601815602800D74070 /* Women_Khakis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44E1815602800D74070 /* Women_Khakis.jpg */; };
 		41202AFA17429E50003CC818 /* loginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202AF917429E50003CC818 /* loginPageViewController.m */; };
 		41202B001742A05D003CC818 /* AppDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202AFC1742A05D003CC818 /* AppDataObject.m */; };
 		41202B011742A05D003CC818 /* ExampleAppDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202AFF1742A05D003CC818 /* ExampleAppDataObject.m */; };
 		41202B041742A594003CC818 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B031742A594003CC818 /* ResultViewController.m */; };
 		41202B0A1742A6EC003CC818 /* SecondChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B091742A6EC003CC818 /* SecondChoiceViewController.m */; };
 		41202B0D1742A6FA003CC818 /* ThirdChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B0C1742A6FA003CC818 /* ThirdChoiceViewController.m */; };
-		41202B101742A77D003CC818 /* FirstChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B0F1742A77D003CC818 /* FirstChoiceViewController.m */; };
 		41202B19174F96AC003CC818 /* QuestionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B18174F96AB003CC818 /* QuestionOneViewController.m */; };
-		413660BF17C52A39000BF14D /* gnome_go_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 413660BD17C52A39000BF14D /* gnome_go_next.png */; };
-		413660C017C52A39000BF14D /* gnome_go_previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 413660BE17C52A39000BF14D /* gnome_go_previous.png */; };
-		413660C417C533BF000BF14D /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 413660C217C533BF000BF14D /* next.png */; };
-		413660C517C533BF000BF14D /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 413660C317C533BF000BF14D /* previous.png */; };
-		413660C817C53404000BF14D /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 413660C617C53404000BF14D /* forward.png */; };
-		413660C917C53404000BF14D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 413660C717C53404000BF14D /* back.png */; };
-		414916EE17561F4800C945A9 /* rsz_ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 414916ED17561F4800C945A9 /* rsz_ladydoc-jpg.png */; };
-		414916F01756201C00C945A9 /* rsz_1ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 414916EF1756201C00C945A9 /* rsz_1ladydoc-jpg.png */; };
-		414916F21756204400C945A9 /* rsz_1rsz_1ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 414916F11756204400C945A9 /* rsz_1rsz_1ladydoc-jpg.png */; };
 		4155C727174FA4B000D96721 /* QuestionTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155C726174FA4B000D96721 /* QuestionTwoViewController.m */; };
 		4155C72A174FB30600D96721 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155C729174FB30600D96721 /* SignUpViewController.m */; };
-		4155C72C174FB9BF00D96721 /* kerdojel96.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155C72B174FB9BF00D96721 /* kerdojel96.png */; };
-		4155C72E174FC6DA00D96721 /* resizedimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155C72D174FC6DA00D96721 /* resizedimage.png */; };
-		4155C730174FC74200D96721 /* 114x114_crop_ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155C72F174FC74200D96721 /* 114x114_crop_ladydoc-jpg.png */; };
 		416579E2173C989200C1277A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416579E1173C989200C1277A /* UIKit.framework */; };
 		416579E4173C989200C1277A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416579E3173C989200C1277A /* Foundation.framework */; };
 		416579E6173C989200C1277A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416579E5173C989200C1277A /* CoreGraphics.framework */; };
 		416579EC173C989200C1277A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416579EA173C989200C1277A /* InfoPlist.strings */; };
 		416579EE173C989200C1277A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416579ED173C989200C1277A /* main.m */; };
 		416579F2173C989200C1277A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416579F1173C989200C1277A /* AppDelegate.m */; };
-		416579F4173C989200C1277A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 416579F3173C989200C1277A /* Default.png */; };
-		416579F6173C989200C1277A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416579F5173C989200C1277A /* Default@2x.png */; };
-		416579F8173C989200C1277A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416579F7173C989200C1277A /* Default-568h@2x.png */; };
 		416579FE173C989200C1277A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416579FD173C989200C1277A /* ViewController.m */; };
 		417413D11794929A0014A199 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417413D01794929A0014A199 /* IntroViewController.m */; };
 		417CA65917B00E8A000807EC /* prepareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417CA65817B00E8A000807EC /* prepareViewController.m */; };
 		417CA66217B14506000807EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417CA66017B14506000807EC /* MainStoryboard.storyboard */; };
 		418BB0A71778E9BB00BAC47C /* RiskScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418BB0A61778E9BB00BAC47C /* RiskScoreViewController.m */; };
-		418BB0AE1779569A00BAC47C /* CRC ribbon Cover Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418BB0AB1779569900BAC47C /* CRC ribbon Cover Photo.jpg */; };
-		418BB0AF1779569A00BAC47C /* Women different.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418BB0AC1779569900BAC47C /* Women different.jpg */; };
-		418BB0B01779569A00BAC47C /* Women_Khakis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418BB0AD1779569A00BAC47C /* Women_Khakis.jpg */; };
-		41ABC31A176BBB3700E32098 /* MainStoryboard5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ABC318176BBB3700E32098 /* MainStoryboard5.storyboard */; };
+		41B823DA17D62D950006E5F2 /* FirstChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B823D917D62D950006E5F2 /* FirstChoiceViewController.m */; };
 		41E1BA86177642370009DBFE /* RiskAssessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E1BA85177642370009DBFE /* RiskAssessViewController.m */; };
-		41F2D115177A197B00A719C2 /* grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41F2D114177A197B00A719C2 /* grey.jpg */; };
-		41F2D117177A19B900A719C2 /* dark_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 41F2D116177A19B900A719C2 /* dark_grey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41202AF417429D98003CC818 /* 1359540668_list-add-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1359540668_list-add-user.png"; sourceTree = "<group>"; };
-		41202AF517429D98003CC818 /* 1359541388_door_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1359541388_door_in.png; sourceTree = "<group>"; };
+		0E91E43B1814EAB100D74070 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = womenhealth/en.lproj/MainStoryboard5.storyboard; sourceTree = "<group>"; };
+		0E91E43D1815602800D74070 /* 114x114_crop_ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114x114_crop_ladydoc-jpg.png"; path = "image/114x114_crop_ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E43E1815602800D74070 /* 1359540668_list-add-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1359540668_list-add-user.png"; path = "image/1359540668_list-add-user.png"; sourceTree = "<group>"; };
+		0E91E43F1815602800D74070 /* 1359541388_door_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1359541388_door_in.png; path = image/1359541388_door_in.png; sourceTree = "<group>"; };
+		0E91E4401815602800D74070 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = image/back.png; sourceTree = "<group>"; };
+		0E91E4411815602800D74070 /* CRC ribbon Cover Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "CRC ribbon Cover Photo.jpg"; path = "image/CRC ribbon Cover Photo.jpg"; sourceTree = "<group>"; };
+		0E91E4421815602800D74070 /* dark_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_grey.png; path = image/dark_grey.png; sourceTree = "<group>"; };
+		0E91E4431815602800D74070 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "image/Default-568h@2x.png"; sourceTree = "<group>"; };
+		0E91E4441815602800D74070 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = image/Default.png; sourceTree = "<group>"; };
+		0E91E4451815602800D74070 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "image/Default@2x.png"; sourceTree = "<group>"; };
+		0E91E4461815602800D74070 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = image/forward.png; sourceTree = "<group>"; };
+		0E91E4471815602800D74070 /* grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grey.jpg; path = image/grey.jpg; sourceTree = "<group>"; };
+		0E91E4481815602800D74070 /* kerdojel96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kerdojel96.png; path = image/kerdojel96.png; sourceTree = "<group>"; };
+		0E91E4491815602800D74070 /* resizedimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resizedimage.png; path = image/resizedimage.png; sourceTree = "<group>"; };
+		0E91E44A1815602800D74070 /* rsz_1ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_1ladydoc-jpg.png"; path = "image/rsz_1ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E44B1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_1rsz_1ladydoc-jpg.png"; path = "image/rsz_1rsz_1ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E44C1815602800D74070 /* rsz_ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_ladydoc-jpg.png"; path = "image/rsz_ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E44D1815602800D74070 /* Women different.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Women different.jpg"; path = "image/Women different.jpg"; sourceTree = "<group>"; };
+		0E91E44E1815602800D74070 /* Women_Khakis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Women_Khakis.jpg; path = image/Women_Khakis.jpg; sourceTree = "<group>"; };
 		41202AF817429E50003CC818 /* loginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginPageViewController.h; sourceTree = "<group>"; };
 		41202AF917429E50003CC818 /* loginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginPageViewController.m; sourceTree = "<group>"; };
 		41202AFB1742A05D003CC818 /* AppDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataObject.h; sourceTree = "<group>"; };
@@ -70,26 +83,12 @@
 		41202B091742A6EC003CC818 /* SecondChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondChoiceViewController.m; sourceTree = "<group>"; };
 		41202B0B1742A6FA003CC818 /* ThirdChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdChoiceViewController.h; sourceTree = "<group>"; };
 		41202B0C1742A6FA003CC818 /* ThirdChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdChoiceViewController.m; sourceTree = "<group>"; };
-		41202B0E1742A77D003CC818 /* FirstChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstChoiceViewController.h; path = ../FirstChoiceViewController.h; sourceTree = "<group>"; };
-		41202B0F1742A77D003CC818 /* FirstChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstChoiceViewController.m; path = ../FirstChoiceViewController.m; sourceTree = "<group>"; };
 		41202B17174F96AB003CC818 /* QuestionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionOneViewController.h; sourceTree = "<group>"; };
 		41202B18174F96AB003CC818 /* QuestionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionOneViewController.m; sourceTree = "<group>"; };
-		413660BD17C52A39000BF14D /* gnome_go_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gnome_go_next.png; path = ../../../Downloads/gnome_go_next.png; sourceTree = "<group>"; };
-		413660BE17C52A39000BF14D /* gnome_go_previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gnome_go_previous.png; path = ../../../Downloads/gnome_go_previous.png; sourceTree = "<group>"; };
-		413660C217C533BF000BF14D /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = ../../../Downloads/next.png; sourceTree = "<group>"; };
-		413660C317C533BF000BF14D /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = previous.png; path = ../../../Downloads/previous.png; sourceTree = "<group>"; };
-		413660C617C53404000BF14D /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = ../../../Downloads/forward.png; sourceTree = "<group>"; };
-		413660C717C53404000BF14D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../Downloads/back.png; sourceTree = "<group>"; };
-		414916ED17561F4800C945A9 /* rsz_ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_ladydoc-jpg.png"; path = "../rsz_ladydoc-jpg.png"; sourceTree = "<group>"; };
-		414916EF1756201C00C945A9 /* rsz_1ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_1ladydoc-jpg.png"; path = "../rsz_1ladydoc-jpg.png"; sourceTree = "<group>"; };
-		414916F11756204400C945A9 /* rsz_1rsz_1ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_1rsz_1ladydoc-jpg.png"; path = "../rsz_1rsz_1ladydoc-jpg.png"; sourceTree = "<group>"; };
 		4155C725174FA4B000D96721 /* QuestionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTwoViewController.h; sourceTree = "<group>"; };
 		4155C726174FA4B000D96721 /* QuestionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTwoViewController.m; sourceTree = "<group>"; };
 		4155C728174FB30600D96721 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		4155C729174FB30600D96721 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
-		4155C72B174FB9BF00D96721 /* kerdojel96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kerdojel96.png; path = ../../../Downloads/kerdojel96.png; sourceTree = "<group>"; };
-		4155C72D174FC6DA00D96721 /* resizedimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resizedimage.png; path = ../resizedimage.png; sourceTree = "<group>"; };
-		4155C72F174FC74200D96721 /* 114x114_crop_ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114x114_crop_ladydoc-jpg.png"; path = "../114x114_crop_ladydoc-jpg.png"; sourceTree = "<group>"; };
 		416579DE173C989200C1277A /* MyLife Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyLife Cloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416579E1173C989200C1277A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		416579E3173C989200C1277A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,9 +99,6 @@
 		416579EF173C989200C1277A /* womenhealth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "womenhealth-Prefix.pch"; sourceTree = "<group>"; };
 		416579F0173C989200C1277A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		416579F1173C989200C1277A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		416579F3173C989200C1277A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		416579F5173C989200C1277A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		416579F7173C989200C1277A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		416579FC173C989200C1277A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		416579FD173C989200C1277A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		417413CF1794929A0014A199 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
@@ -112,14 +108,10 @@
 		417CA66117B14506000807EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = womenhealth/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		418BB0A51778E9BB00BAC47C /* RiskScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskScoreViewController.h; sourceTree = "<group>"; };
 		418BB0A61778E9BB00BAC47C /* RiskScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiskScoreViewController.m; sourceTree = "<group>"; };
-		418BB0AB1779569900BAC47C /* CRC ribbon Cover Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "CRC ribbon Cover Photo.jpg"; path = "../../../Downloads/CRC ribbon Cover Photo.jpg"; sourceTree = "<group>"; };
-		418BB0AC1779569900BAC47C /* Women different.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Women different.jpg"; path = "../../../Downloads/Women different.jpg"; sourceTree = "<group>"; };
-		418BB0AD1779569A00BAC47C /* Women_Khakis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Women_Khakis.jpg; path = ../../../Downloads/Women_Khakis.jpg; sourceTree = "<group>"; };
-		41ABC319176BBB3700E32098 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard5.storyboard; sourceTree = "<group>"; };
+		41B823D817D62D950006E5F2 /* FirstChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstChoiceViewController.h; sourceTree = "<group>"; };
+		41B823D917D62D950006E5F2 /* FirstChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstChoiceViewController.m; sourceTree = "<group>"; };
 		41E1BA84177642370009DBFE /* RiskAssessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskAssessViewController.h; sourceTree = "<group>"; };
 		41E1BA85177642370009DBFE /* RiskAssessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiskAssessViewController.m; sourceTree = "<group>"; };
-		41F2D114177A197B00A719C2 /* grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grey.jpg; path = ../../../Downloads/grey.jpg; sourceTree = "<group>"; };
-		41F2D116177A19B900A719C2 /* dark_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_grey.png; path = ../../../Downloads/dark_grey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,25 +131,21 @@
 		41465C8717CC513200BA326F /* Img */ = {
 			isa = PBXGroup;
 			children = (
-				41202AF417429D98003CC818 /* 1359540668_list-add-user.png */,
-				41202AF517429D98003CC818 /* 1359541388_door_in.png */,
-				413660C617C53404000BF14D /* forward.png */,
-				413660BD17C52A39000BF14D /* gnome_go_next.png */,
-				413660BE17C52A39000BF14D /* gnome_go_previous.png */,
-				413660C717C53404000BF14D /* back.png */,
-				413660C217C533BF000BF14D /* next.png */,
-				413660C317C533BF000BF14D /* previous.png */,
-				41F2D116177A19B900A719C2 /* dark_grey.png */,
-				41F2D114177A197B00A719C2 /* grey.jpg */,
-				418BB0AB1779569900BAC47C /* CRC ribbon Cover Photo.jpg */,
-				418BB0AC1779569900BAC47C /* Women different.jpg */,
-				418BB0AD1779569A00BAC47C /* Women_Khakis.jpg */,
-				414916F11756204400C945A9 /* rsz_1rsz_1ladydoc-jpg.png */,
-				414916EF1756201C00C945A9 /* rsz_1ladydoc-jpg.png */,
-				414916ED17561F4800C945A9 /* rsz_ladydoc-jpg.png */,
-				4155C72F174FC74200D96721 /* 114x114_crop_ladydoc-jpg.png */,
-				4155C72B174FB9BF00D96721 /* kerdojel96.png */,
-				4155C72D174FC6DA00D96721 /* resizedimage.png */,
+				0E91E43D1815602800D74070 /* 114x114_crop_ladydoc-jpg.png */,
+				0E91E43E1815602800D74070 /* 1359540668_list-add-user.png */,
+				0E91E43F1815602800D74070 /* 1359541388_door_in.png */,
+				0E91E4401815602800D74070 /* back.png */,
+				0E91E4411815602800D74070 /* CRC ribbon Cover Photo.jpg */,
+				0E91E4421815602800D74070 /* dark_grey.png */,
+				0E91E4461815602800D74070 /* forward.png */,
+				0E91E4471815602800D74070 /* grey.jpg */,
+				0E91E4481815602800D74070 /* kerdojel96.png */,
+				0E91E4491815602800D74070 /* resizedimage.png */,
+				0E91E44A1815602800D74070 /* rsz_1ladydoc-jpg.png */,
+				0E91E44B1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png */,
+				0E91E44C1815602800D74070 /* rsz_ladydoc-jpg.png */,
+				0E91E44D1815602800D74070 /* Women different.jpg */,
+				0E91E44E1815602800D74070 /* Women_Khakis.jpg */,
 			);
 			name = Img;
 			sourceTree = "<group>";
@@ -192,25 +180,25 @@
 		416579E7173C989200C1277A /* womenhealth */ = {
 			isa = PBXGroup;
 			children = (
+				41465C8717CC513200BA326F /* Img */,
 				416579F0173C989200C1277A /* AppDelegate.h */,
 				416579F1173C989200C1277A /* AppDelegate.m */,
 				417CA65717B00E8A000807EC /* prepareViewController.h */,
 				417CA65817B00E8A000807EC /* prepareViewController.m */,
 				417CA66017B14506000807EC /* MainStoryboard.storyboard */,
-				41ABC318176BBB3700E32098 /* MainStoryboard5.storyboard */,
+				0E91E43A1814EAB100D74070 /* MainStoryboard5.storyboard */,
 				417413CF1794929A0014A199 /* IntroViewController.h */,
 				417413D01794929A0014A199 /* IntroViewController.m */,
 				418BB0A51778E9BB00BAC47C /* RiskScoreViewController.h */,
 				418BB0A61778E9BB00BAC47C /* RiskScoreViewController.m */,
 				41E1BA84177642370009DBFE /* RiskAssessViewController.h */,
 				41E1BA85177642370009DBFE /* RiskAssessViewController.m */,
-				41465C8717CC513200BA326F /* Img */,
 				41202B17174F96AB003CC818 /* QuestionOneViewController.h */,
 				41202B18174F96AB003CC818 /* QuestionOneViewController.m */,
 				4155C725174FA4B000D96721 /* QuestionTwoViewController.h */,
 				4155C726174FA4B000D96721 /* QuestionTwoViewController.m */,
-				41202B0E1742A77D003CC818 /* FirstChoiceViewController.h */,
-				41202B0F1742A77D003CC818 /* FirstChoiceViewController.m */,
+				41B823D817D62D950006E5F2 /* FirstChoiceViewController.h */,
+				41B823D917D62D950006E5F2 /* FirstChoiceViewController.m */,
 				41202B081742A6EC003CC818 /* SecondChoiceViewController.h */,
 				41202B091742A6EC003CC818 /* SecondChoiceViewController.m */,
 				41202B0B1742A6FA003CC818 /* ThirdChoiceViewController.h */,
@@ -236,13 +224,13 @@
 		416579E8173C989200C1277A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E91E4431815602800D74070 /* Default-568h@2x.png */,
+				0E91E4441815602800D74070 /* Default.png */,
+				0E91E4451815602800D74070 /* Default@2x.png */,
 				416579E9173C989200C1277A /* womenhealth-Info.plist */,
 				416579EA173C989200C1277A /* InfoPlist.strings */,
 				416579ED173C989200C1277A /* main.m */,
 				416579EF173C989200C1277A /* womenhealth-Prefix.pch */,
-				416579F3173C989200C1277A /* Default.png */,
-				416579F5173C989200C1277A /* Default@2x.png */,
-				416579F7173C989200C1277A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,30 +287,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				416579EC173C989200C1277A /* InfoPlist.strings in Resources */,
-				416579F4173C989200C1277A /* Default.png in Resources */,
-				416579F6173C989200C1277A /* Default@2x.png in Resources */,
-				416579F8173C989200C1277A /* Default-568h@2x.png in Resources */,
-				41202AF617429D98003CC818 /* 1359540668_list-add-user.png in Resources */,
-				41202AF717429D98003CC818 /* 1359541388_door_in.png in Resources */,
-				4155C72C174FB9BF00D96721 /* kerdojel96.png in Resources */,
-				4155C72E174FC6DA00D96721 /* resizedimage.png in Resources */,
-				4155C730174FC74200D96721 /* 114x114_crop_ladydoc-jpg.png in Resources */,
-				414916EE17561F4800C945A9 /* rsz_ladydoc-jpg.png in Resources */,
-				414916F01756201C00C945A9 /* rsz_1ladydoc-jpg.png in Resources */,
-				414916F21756204400C945A9 /* rsz_1rsz_1ladydoc-jpg.png in Resources */,
-				41ABC31A176BBB3700E32098 /* MainStoryboard5.storyboard in Resources */,
-				418BB0AE1779569A00BAC47C /* CRC ribbon Cover Photo.jpg in Resources */,
-				418BB0AF1779569A00BAC47C /* Women different.jpg in Resources */,
-				418BB0B01779569A00BAC47C /* Women_Khakis.jpg in Resources */,
-				41F2D115177A197B00A719C2 /* grey.jpg in Resources */,
-				41F2D117177A19B900A719C2 /* dark_grey.png in Resources */,
 				417CA66217B14506000807EC /* MainStoryboard.storyboard in Resources */,
-				413660BF17C52A39000BF14D /* gnome_go_next.png in Resources */,
-				413660C017C52A39000BF14D /* gnome_go_previous.png in Resources */,
-				413660C417C533BF000BF14D /* next.png in Resources */,
-				413660C517C533BF000BF14D /* previous.png in Resources */,
-				413660C817C53404000BF14D /* forward.png in Resources */,
-				413660C917C53404000BF14D /* back.png in Resources */,
+				0E91E43C1814EAB100D74070 /* MainStoryboard5.storyboard in Resources */,
+				0E91E44F1815602800D74070 /* 114x114_crop_ladydoc-jpg.png in Resources */,
+				0E91E4501815602800D74070 /* 1359540668_list-add-user.png in Resources */,
+				0E91E4511815602800D74070 /* 1359541388_door_in.png in Resources */,
+				0E91E4521815602800D74070 /* back.png in Resources */,
+				0E91E4531815602800D74070 /* CRC ribbon Cover Photo.jpg in Resources */,
+				0E91E4541815602800D74070 /* dark_grey.png in Resources */,
+				0E91E4551815602800D74070 /* Default-568h@2x.png in Resources */,
+				0E91E4561815602800D74070 /* Default.png in Resources */,
+				0E91E4571815602800D74070 /* Default@2x.png in Resources */,
+				0E91E4581815602800D74070 /* forward.png in Resources */,
+				0E91E4591815602800D74070 /* grey.jpg in Resources */,
+				0E91E45A1815602800D74070 /* kerdojel96.png in Resources */,
+				0E91E45B1815602800D74070 /* resizedimage.png in Resources */,
+				0E91E45C1815602800D74070 /* rsz_1ladydoc-jpg.png in Resources */,
+				0E91E45D1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png in Resources */,
+				0E91E45E1815602800D74070 /* rsz_ladydoc-jpg.png in Resources */,
+				0E91E45F1815602800D74070 /* Women different.jpg in Resources */,
+				0E91E4601815602800D74070 /* Women_Khakis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +326,6 @@
 				41202B041742A594003CC818 /* ResultViewController.m in Sources */,
 				41202B0A1742A6EC003CC818 /* SecondChoiceViewController.m in Sources */,
 				41202B0D1742A6FA003CC818 /* ThirdChoiceViewController.m in Sources */,
-				41202B101742A77D003CC818 /* FirstChoiceViewController.m in Sources */,
 				41202B19174F96AC003CC818 /* QuestionOneViewController.m in Sources */,
 				4155C727174FA4B000D96721 /* QuestionTwoViewController.m in Sources */,
 				4155C72A174FB30600D96721 /* SignUpViewController.m in Sources */,
@@ -350,12 +333,22 @@
 				418BB0A71778E9BB00BAC47C /* RiskScoreViewController.m in Sources */,
 				417413D11794929A0014A199 /* IntroViewController.m in Sources */,
 				417CA65917B00E8A000807EC /* prepareViewController.m in Sources */,
+				41B823DA17D62D950006E5F2 /* FirstChoiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0E91E43A1814EAB100D74070 /* MainStoryboard5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E91E43B1814EAB100D74070 /* en */,
+			);
+			name = MainStoryboard5.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		416579EA173C989200C1277A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,14 +364,6 @@
 			);
 			name = MainStoryboard.storyboard;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		41ABC318176BBB3700E32098 /* MainStoryboard5.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41ABC319176BBB3700E32098 /* en */,
-			);
-			name = MainStoryboard5.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
