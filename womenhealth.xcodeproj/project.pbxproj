@@ -428,11 +428,15 @@
 		41657A02173C989200C1277A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "womenhealth/womenhealth-Prefix.pch";
 				INFOPLIST_FILE = "womenhealth/womenhealth-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "MyLife Cloud";
+				PROVISIONING_PROFILE = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,11 +445,15 @@
 		41657A03173C989200C1277A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "womenhealth/womenhealth-Prefix.pch";
 				INFOPLIST_FILE = "womenhealth/womenhealth-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "MyLife Cloud";
+				PROVISIONING_PROFILE = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
