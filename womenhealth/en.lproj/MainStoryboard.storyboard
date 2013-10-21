@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xqu-1h-GPF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gua-Zz-8Nu">
     <dependencies>
         <deployment version="1280" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
@@ -612,8 +612,8 @@ Changes to the application:
                                 <rect key="frame" x="12" y="101" width="300" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">My Life Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer.  This app is designed to assist you in making an informed decision about the type of colorectal cancer screening that may be best for you.  You will learn about your risk to colorectal cancer, identify your beliefs about colorectal cancer, learn about screening options and the benefits and risks related to colorectal cancer screening. Based on your responses, the colorectal cancer screening best suited for you will be displayed. Once you  are done and have your results, take time to talk to your health care provider about your results and get screened for colorectal cancer.
-</mutableString>
+                                <string key="text">My Life Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer.  This app is designed to assist you in making an informed decision about the type of colorectal cancer screening that may be best for you.  You will learn about your risk to colorectal cancer, identify your beliefs about colorectal cancer, learn about screening options and the benefits and risks related to colorectal cancer screening. Based on your responses, the colorectal cancer screening best suited for you will be displayed. Once you  are done and have your results, take time to talk to your health care provider about your results and get screened for colorectal cancer.
+</string>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
