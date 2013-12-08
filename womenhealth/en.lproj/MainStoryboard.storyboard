@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gua-Zz-8Nu">
+    <dependencies>
+        <deployment version="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="H2c-8s-JXB">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="gua-Zz-8Nu" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tZO-LD-Pjq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0Zc-pJ-qq0" kind="relationship" relationship="rootViewController" id="5LD-Do-u4H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mzc-cW-mFC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21" y="-768"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CCq-Z1-K7U">
+            <objects>
+                <viewController storyboardIdentifier="firstBoard" id="0Zc-pJ-qq0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Il2-xj-2Q7">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Women_Khakis.jpg" id="E9O-Q8-zxz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="378"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="MyLife Cloud" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nGA-1A-Tsn">
+                                <rect key="frame" x="37" y="167" width="246" height="98"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="41"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="Q0D-xq-ofc">
+                                <rect key="frame" x="0.0" y="375" width="320" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rmF-da-XtL">
+                                        <rect key="frame" x="218" y="11" width="46" height="46"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" backgroundImage="kerdojel96.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="VOl-b3-UOK" kind="push" id="HBu-GB-kuv"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zjv-OK-YpF">
+                                        <rect key="frame" x="219" y="57" width="45" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Wrb-AJ-rTV">
+                                        <rect key="frame" x="137" y="11" width="46" height="46"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" backgroundImage="1359540668_list-add-user.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="bel-2J-Lil" kind="push" id="Etk-ck-PRa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DYa-41-sqU">
+                                        <rect key="frame" x="49" y="11" width="46" height="46"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" backgroundImage="1359541388_door_in.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="sAf-rQ-7lu" kind="push" id="f5Q-hf-zvu"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aOB-J0-Qeb">
+                                        <rect key="frame" x="54" y="57" width="56" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sign up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aiz-Am-PNR">
+                                        <rect key="frame" x="131" y="57" width="58" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sBr-Xe-V2Z"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8u-xN-4Xu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521" y="-739"/>
+        </scene>
+        <!--Question One View Controller-->
+        <scene sceneID="djF-E8-RMe">
+            <objects>
+                <viewController id="XQn-9u-47k" customClass="QuestionOneViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="51E-Ww-u3s">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="glo-bF-1H6">
+                                <rect key="frame" x="100" y="309" width="120" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressYes:" destination="XQn-9u-47k" eventType="touchUpInside" id="DCh-2D-8vx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DDI-XC-l3r">
+                                <rect key="frame" x="100" y="357" width="120" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressNo:" destination="XQn-9u-47k" eventType="touchUpInside" id="Buu-lf-p3w"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" id="6gT-Cw-zQY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Beliefs" id="O0S-Ts-M9X">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="acp-gJ-6aC">
+                                            <connections>
+                                                <segue destination="WDc-7L-Qg2" kind="push" id="rtw-xN-Yz4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="suj-GN-b8X">
+                                            <connections>
+                                                <action selector="nextButton:" destination="XQn-9u-47k" id="Wdu-Kl-jaa"/>
+                                                <segue destination="8Ug-sz-Vss" kind="push" identifier="next4" id="C5I-8P-D3P"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KPw-oi-kxO">
+                                <rect key="frame" x="13" y="168" width="294" height="124"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MSP-fi-6ui">
+                                <rect key="frame" x="15" y="37" width="310" height="144"/>
+                                <string key="text">What you think about colorectal cancer screening and colorectal cancer is important. What do you believe about colorectal cancer and colorectal cancer screening? </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Bt-7N-bo1">
+                                <rect key="frame" x="16.5" y="318.5" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousButton:" destination="XQn-9u-47k" eventType="touchUpInside" id="mK0-iV-mCg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Th9-hy-OJl">
+                                <rect key="frame" x="236.5" y="318" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="forward.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextQuestionButton:" destination="XQn-9u-47k" eventType="touchUpInside" id="i6y-Z6-Frc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="GQE-vG-2ac">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w8s-Tg-q79"/>
+                    <connections>
+                        <outlet property="noButton" destination="DDI-XC-l3r" id="nZC-OG-YTq"/>
+                        <outlet property="questionBar" destination="MSP-fi-6ui" id="zNl-wx-fPg"/>
+                        <outlet property="questionLabel" destination="KPw-oi-kxO" id="OCW-43-xpe"/>
+                        <outlet property="yesButton" destination="glo-bF-1H6" id="7AJ-nk-GIc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HWS-Hk-vaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="397"/>
+        </scene>
+        <!--Question Two View Controller-->
+        <scene sceneID="MBo-av-ljh">
+            <objects>
+                <viewController id="xqu-1h-GPF" customClass="QuestionTwoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7v2-XB-TYw">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="SeL-Ui-Ikh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Support" id="aaw-e5-76O">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="iSw-PW-ZIt">
+                                            <connections>
+                                                <segue destination="sGM-Pj-aGB" kind="push" id="PJa-nZ-ZRU"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="f6I-OC-M4T">
+                                            <connections>
+                                                <action selector="nextButton:" destination="xqu-1h-GPF" id="zKE-pq-MnH"/>
+                                                <segue destination="9FT-N9-lqx" kind="push" identifier="next5" id="HDL-ra-dNO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xxQ-DM-iwW">
+                                <rect key="frame" x="100" y="186" width="120" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressYes:" destination="xqu-1h-GPF" eventType="touchUpInside" id="zrt-7E-Wsy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Iue-Xj-S5X">
+                                <rect key="frame" x="100" y="228" width="120" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressNo:" destination="xqu-1h-GPF" eventType="touchUpInside" id="NYp-xf-35L"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ds-ah-xBu">
+                                <rect key="frame" x="15" y="50" width="291" height="92"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ZkR-2J-UdC">
+                                <rect key="frame" x="26" y="150" width="269" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aAP-jW-THx">
+                                <rect key="frame" x="100" y="270" width="120" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressDontKnow:" destination="xqu-1h-GPF" eventType="touchUpInside" id="0Gj-QH-c6b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vNn-4t-NuT">
+                                <rect key="frame" x="15" y="179" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousButton:" destination="xqu-1h-GPF" eventType="touchUpInside" id="j4S-Fk-CI1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wCA-yo-Y8B">
+                                <rect key="frame" x="238" y="179" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="forward.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextQuestionButton:" destination="xqu-1h-GPF" eventType="touchUpInside" id="SpL-CA-fos"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="vPw-SM-bnu">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="b9l-6g-EFP"/>
+                    <connections>
+                        <outlet property="DontKnowButton" destination="aAP-jW-THx" id="6Ii-aL-Osy"/>
+                        <outlet property="NoButton" destination="Iue-Xj-S5X" id="BTU-Dw-Foi"/>
+                        <outlet property="YesButton" destination="xxQ-DM-iwW" id="gdn-mB-gLz"/>
+                        <outlet property="questionLabel" destination="9ds-ah-xBu" id="Bty-p1-RG4"/>
+                        <outlet property="textField" destination="ZkR-2J-UdC" id="BFb-Ys-T3U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egN-uk-UI0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-665" y="472"/>
+        </scene>
+        <!--View Controller - Terms & Conditions-->
+        <scene sceneID="MxN-st-6BI">
+            <objects>
+                <viewController id="VOl-b3-UOK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Lo-DZ-2Uq">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="jG6-cO-I8F">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Use of information:
+"Woman’s Health” is available for the sole purpose of providing general educational information on health-related issues and providing access to health-related resources to assist women in colorectal cancer screening.
+This application and its health-related information and resource are not intended to be a substitute for professional medical advice or for the care that patients receive from their primary care provider/doctor.  Nothing in the application is intended to be used for medical diagnoses or treatment. Always seek the advice of your physician before beginning any new treatment or if you have any question regarding a medical condition.  You should not disregard medical advice, or delay seeking medical advice because of something you read while using this application. 
+This application and its health-related information and resources are not intended, and must not be taken to be the rendering of medical, nursing or professional health care advice or services, or the practice of medicine, nursing or professional health care in any jurisdiction.q
+You understand and agree that “Women’s Health” is not responsible or liable for any claim, loss, or damage directly or indirectly resulting from your use of this application or the information or the resources contained on or accessible through this application.                                                         
+                                                                             While “Women’s Health” will attempt to keep information and resources contained on or accessible through this app both timely and accurate, Women’s Health makes no guarantees, and disclaim any implied warranty or representation about the information’s or resources’ accuracy, relevance, timeliness, completeness, or appropriateness for a particular purpose.
+Changes to the application:
+“Women’s Health” may change or modify the app, and any other resource contain or accessible through this app, or discontinue the app altogether, at any time without notice.
+“Women’s Health” may modify this agreement at any time, and such modification shall be effective immediately upon posting of the modified agreement. 
+</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="717-BW-FU6">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="zJh-Sz-uMF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Terms &amp; Conditions" id="HyK-3M-ywG">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ZLj-cw-DDP">
+                                            <connections>
+                                                <segue destination="0Zc-pJ-qq0" kind="push" id="wTP-Td-jqs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Terms &amp; Conditions" id="Za7-cs-77i">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="XlJ-1t-OGP"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zct-MT-otO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="-1373"/>
+        </scene>
+        <!--Login Page View Controller-->
+        <scene sceneID="Qwz-Fc-ATe">
+            <objects>
+                <viewController id="sAf-rQ-7lu" customClass="loginPageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UcZ-YJ-8dy">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" id="zjd-r0-GiM">
+                                <rect key="frame" x="49" y="67" width="210" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="UcZ-YJ-8dy" id="Gpo-4I-5Nu"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" clearsOnBeginEditing="YES" minimumFontSize="17" id="qu5-xT-GuF">
+                                <rect key="frame" x="49" y="105" width="210" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="UcZ-YJ-8dy" id="9n3-uh-cQi"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WAP-qx-ETC">
+                                <rect key="frame" x="49" y="36" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DSj-u3-Xdr">
+                                <rect key="frame" x="49" y="105" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cqr-m6-HOs">
+                                <rect key="frame" x="49" y="143" width="210" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="sAf-rQ-7lu" eventType="touchUpInside" id="Uhr-9E-MIq"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" id="aSa-Yq-wXl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Login" id="NA0-PL-n5v">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="6lc-DS-mxh">
+                                            <connections>
+                                                <segue destination="0Zc-pJ-qq0" kind="push" id="nzv-9B-H0L"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="9m7-NS-WaL">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ih8-bg-Ggg"/>
+                    <connections>
+                        <outlet property="password" destination="qu5-xT-GuF" id="0IO-Nm-qE5"/>
+                        <outlet property="username" destination="zjd-r0-GiM" id="vwd-5W-MOU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nId-an-78k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="-792"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="eQ2-wa-qcV">
+            <objects>
+                <viewController id="bel-2J-Lil" customClass="SignUpViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KJx-v0-yTn">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" id="0q3-zf-ID1">
+                                <rect key="frame" x="53" y="58" width="215" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="CYP-8c-YMf">
+                                <rect key="frame" x="53" y="94" width="215" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lNv-Bi-4nQ">
+                                <rect key="frame" x="53" y="167" width="215" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submit:" destination="bel-2J-Lil" eventType="touchUpInside" id="CRm-1o-6Xe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dyw-ek-qoH">
+                                <rect key="frame" x="40" y="161" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4z8-kB-ObI">
+                                <rect key="frame" x="40" y="167" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-Type Password" minimumFontSize="17" id="9Sd-3a-dxR">
+                                <rect key="frame" x="53" y="131" width="215" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" id="VZi-1m-AxK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Sign Up" id="9oE-DL-Epe">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="T2i-Ck-x1l">
+                                            <connections>
+                                                <segue destination="0Zc-pJ-qq0" kind="push" id="EWm-m8-jV0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Qh7-KB-wd3">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9TQ-aO-RQA"/>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="9Sd-3a-dxR" id="Xid-SJ-bb2"/>
+                        <outlet property="passWordTextField" destination="CYP-8c-YMf" id="4GS-aq-g9m"/>
+                        <outlet property="userNameTextField" destination="0q3-zf-ID1" id="wcD-8d-U3d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lps-Gj-aDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1375" y="-800"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mON-4n-8w7">
+            <objects>
+                <viewController storyboardIdentifier="IntroBoard" id="ZmU-rA-EjE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TcM-Aq-W6B">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar opaque="NO" contentMode="scaleToFill" id="YJ0-0y-Rnm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="K7Y-4x-Vin">
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="zA5-JH-KEe">
+                                            <connections>
+                                                <segue destination="Yg8-Tf-vmQ" kind="push" id="Mi9-6I-d2F"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to MyLife Cloud " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lFr-Sp-x05">
+                                <rect key="frame" x="25" y="72" width="271" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pys-bi-Pvb">
+                                <rect key="frame" x="12" y="92" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="oL8-h8-oRz">
+                                <rect key="frame" x="12" y="101" width="300" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">My Life Cloud is a mobile based system aimed at empowering people who are at risk for colorectal cancer.  This app is designed to assist you in making an informed decision about the type of colorectal cancer screening that may be best for you.  You will learn about your risk to colorectal cancer, identify your beliefs about colorectal cancer, learn about screening options and the benefits and risks related to colorectal cancer screening. Based on your responses, the colorectal cancer screening best suited for you will be displayed. Once you  are done and have your results, take time to talk to your health care provider about your results and get screened for colorectal cancer.
+</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="kbV-hM-52V">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HbH-O0-pN6">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="wPq-hu-cIq"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c16-Eb-MKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="-160"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rr2-Yw-eaa">
+            <objects>
+                <viewController id="Yg8-Tf-vmQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JAC-IF-aqH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar opaque="NO" contentMode="scaleToFill" id="dvs-iS-RC3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="XJE-eQ-SpB">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="pAz-wa-n2Y">
+                                            <connections>
+                                                <segue destination="ZmU-rA-EjE" kind="push" id="aEd-Ks-bRh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="NVf-AO-psU">
+                                            <connections>
+                                                <segue destination="H9t-VG-yWA" kind="push" id="ZfT-Cx-Uoa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="a7T-TP-Kz4">
+                                <rect key="frame" x="11" y="106" width="299" height="334"/>
+                                <string key="text">Colorectal cancer is the second leading cause of death from cancer in the United States. Your health care provider recommends that you be screened for colorectal cancer as part of maintaining your health. Colorectal cancer is a disease in which cancer cells form in the colon or the rectum. </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="fL6-6H-9I0">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WVy-aJ-dSY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZeO-6M-0TJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="-166"/>
+        </scene>
+        <!--Risk Assess View Controller-->
+        <scene sceneID="Oa2-9X-AxD">
+            <objects>
+                <viewController storyboardIdentifier="RiskAssessmentBoard" id="H9t-VG-yWA" customClass="RiskAssessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rUr-Ur-JWw">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select your race/ethnicity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="noy-hU-sZ8">
+                                <rect key="frame" x="9" y="52" width="302" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="GzF-5c-YrR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Risk Assessment" id="5jO-Xc-wxw">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="jpT-h3-7ct">
+                                            <connections>
+                                                <segue destination="Yg8-Tf-vmQ" kind="push" id="tuT-mB-NfH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="a46-ZL-6WA">
+                                            <connections>
+                                                <action selector="nextButton:" destination="H9t-VG-yWA" id="SYD-MU-eqr"/>
+                                                <segue destination="WDc-7L-Qg2" kind="push" identifier="nextzero" id="N76-va-cK8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a00-Ia-jfU">
+                                <rect key="frame" x="102" y="190" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="firstButtonPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="DG7-lc-KrQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MYX-at-Geg">
+                                <rect key="frame" x="100" y="232" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="secondButtonPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="OzF-i3-N7m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b8t-uB-P9I">
+                                <rect key="frame" x="100" y="274" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="thirdButtonPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="GHl-qe-TbN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t6h-Ub-DWv">
+                                <rect key="frame" x="100" y="316" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fourthButtonPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="zac-Qh-bcR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J0n-DB-CZ0">
+                                <rect key="frame" x="100" y="358" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fifthButtonPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="UfH-0m-QRz"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="0gV-Dv-d1u">
+                                <rect key="frame" x="0.0" y="244" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="KDl-jq-whM">
+                                <rect key="frame" x="115" y="193" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cYp-wp-pDH">
+                                <rect key="frame" x="243" y="172" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="forward.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextArrowPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="U1v-aU-4hd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bc3-Ma-dD9">
+                                <rect key="frame" x="9" y="172" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousArrowPressed:" destination="H9t-VG-yWA" eventType="touchUpInside" id="UcZ-Ty-3OK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="X2e-WO-bTh">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qE8-ia-rKY"/>
+                    <connections>
+                        <outlet property="ageField" destination="KDl-jq-whM" id="eG5-Bo-dHw"/>
+                        <outlet property="fifthButton" destination="J0n-DB-CZ0" id="zcH-Ln-5vV"/>
+                        <outlet property="firstButton" destination="a00-Ia-jfU" id="CvF-9v-8Le"/>
+                        <outlet property="fourthButton" destination="t6h-Ub-DWv" id="X9p-WD-prp"/>
+                        <outlet property="nextArrow" destination="cYp-wp-pDH" id="tcy-a5-W1H"/>
+                        <outlet property="pickerView" destination="0gV-Dv-d1u" id="19j-Gw-SZM"/>
+                        <outlet property="previousArrow" destination="Bc3-Ma-dD9" id="68J-c1-mZs"/>
+                        <outlet property="questionBar" destination="noy-hU-sZ8" id="S11-VI-6AG"/>
+                        <outlet property="secondButton" destination="MYX-at-Geg" id="NoK-CD-R5g"/>
+                        <outlet property="thirdButton" destination="b8t-uB-P9I" id="97H-rA-baO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ki4-AC-Aps" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794" y="-200"/>
+        </scene>
+        <!--Risk Score View Controller-->
+        <scene sceneID="00q-PC-gmx">
+            <objects>
+                <viewController storyboardIdentifier="ScoreBoard" id="WDc-7L-Qg2" customClass="RiskScoreViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NLt-QY-yO3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="e2O-kn-OI0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Risk Assessment" id="Vop-lh-1aM">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="fkc-lT-VJY">
+                                            <connections>
+                                                <segue destination="H9t-VG-yWA" kind="push" id="X30-Nr-Zfa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="5Xl-yW-oPe">
+                                            <connections>
+                                                <action selector="nextButton:" destination="WDc-7L-Qg2" id="Iu8-eC-7dB"/>
+                                                <segue destination="XQn-9u-47k" kind="push" id="gKk-Nr-XOe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Based on the risk assessment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J2k-KE-e96">
+                                <rect key="frame" x="14" y="118" width="286" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You are at" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AmU-Nn-Ev6">
+                                <rect key="frame" x="89" y="172" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="540-71-5ZL">
+                                <rect key="frame" x="80" y="235" width="173" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y9i-gO-Uml">
+                                <rect key="frame" x="59" y="327" width="215" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="13"/>
+                                <state key="normal" title="Feel tired? Click me to come back later!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="notifyLater:" destination="WDc-7L-Qg2" eventType="touchUpInside" id="MYm-TH-UQ4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="x7g-v7-yUH">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="seb-Ss-vek"/>
+                    <connections>
+                        <outlet property="riskResultBar" destination="540-71-5ZL" id="79s-xL-1p1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gH7-Mr-55O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504" y="433"/>
+        </scene>
+        <!--Intro View Controller-->
+        <scene sceneID="Rv5-xH-PYa">
+            <objects>
+                <viewController id="8Ug-sz-Vss" customClass="IntroViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vWC-LD-88L">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="upH-qB-Jcu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="sSq-xe-ufO">
+                                        <barButtonItem key="backBarButtonItem" title="Back" id="aSs-Ic-vfw"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="xvP-qG-XbV">
+                                            <connections>
+                                                <segue destination="XQn-9u-47k" kind="push" id="eH1-nV-wCQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="W6W-7f-FBs">
+                                            <connections>
+                                                <segue destination="DGG-eT-P8h" kind="push" id="X4v-ux-U7y"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Based upon your personal health history and family health history you are at " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WHU-f2-4Lg">
+                                <rect key="frame" x="13" y="94" width="302" height="85"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ui2-sp-iUo">
+                                <rect key="frame" x="15" y="211" width="292" height="129"/>
+                                <string key="text">This app will give you information about testing for colorectal cancer so you can learn about colorectal cancer and select the test that’s best for you.</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cCI-Z0-3bM">
+                                <rect key="frame" x="108" y="162" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> for colorectal cancer. 
+</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Average Risk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="36F-Ti-fC5">
+                                <rect key="frame" x="10" y="161" width="100" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="1.6086347815057801e-06" blue="0.00031887755102044668" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="kWB-ix-5Dt">
+                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oMw-Tf-UJG">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="SyM-eC-wbm"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="riskBar" destination="36F-Ti-fC5" id="XOi-6a-9UV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9E-nv-EDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430" y="-178"/>
+        </scene>
+        <!--View Controller - Title-->
+        <scene sceneID="mRB-bD-9tH">
+            <objects>
+                <viewController id="DGG-eT-P8h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NIQ-Gv-X90">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="qTO-7z-VX4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="YkX-qE-VPq">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="u08-ss-SZK">
+                                            <connections>
+                                                <segue destination="8Ug-sz-Vss" kind="push" id="Kdt-zg-vaq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="xPK-GI-KIq">
+                                            <connections>
+                                                <segue destination="pWG-aN-NJH" kind="push" id="yVD-ZG-beY"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1hz-YO-bVM">
+                                <rect key="frame" x="9" y="43" width="311" height="169"/>
+                                <string key="text">There are two testing option for you because you are at average risk for colorectal cancer. One option is the Fecal Occult Blood Test (FOBT) and the second option is the colonoscopy. 
+
+</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="tlf-re-EKj">
+                                <rect key="frame" x="0.0" y="44" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UDf-VM-32k">
+                                <rect key="frame" x="7" y="220" width="307" height="180"/>
+                                <string key="text">You should make your choice based on the type of test results you would like to receive, the time you have for testing, the time you have to prepare for testing, along with your understanding of the risks and benefits of each test.</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="How do you choose? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DvP-HJ-nah">
+                                <rect key="frame" x="9" y="191" width="231" height="21"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="MVM-09-nws"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pw-QJ-EXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="-173"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tit-RN-XjU">
+            <objects>
+                <viewController id="pWG-aN-NJH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l8R-vf-21i">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="SFq-ar-nYx">
+                                <rect key="frame" x="0.0" y="116" width="320" height="320"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The fecal occult blood test (FOBT) is a test to check stool for blood that can only be seen with a microscope.  Small samples of stool are placed on special cards and returned to the doctor or laboratory for testing. Blood in the stool may be a sign of polyps (an abnormal growth of tissue in the colon or rectum) or cancer. </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="f5t-5p-mgX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="cam-Mu-fwH">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="4Z3-AT-chn">
+                                            <connections>
+                                                <segue destination="DGG-eT-P8h" kind="push" id="ZIb-3W-rSS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="UeQ-Yn-037">
+                                            <connections>
+                                                <segue destination="xog-1W-02v" kind="push" id="yMw-Sh-BtH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="FOBT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="50d-Gj-24u">
+                                <rect key="frame" x="124" y="87" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Iei-l0-WSu">
+                                <rect key="frame" x="0.0" y="44" width="332" height="421"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="30O-0S-2q4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GaT-Ft-eeM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="-167"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="dB8-xm-tl5">
+            <objects>
+                <viewController id="9FT-N9-lqx" customClass="ResultViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dLb-qq-k93">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="6sI-qC-NHK" customClass="Res">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Result" id="AtX-JH-65C">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Wl5-DP-B4d">
+                                            <connections>
+                                                <segue destination="xqu-1h-GPF" kind="push" id="Z5F-n8-fZL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Logout" id="d2n-9b-I0h">
+                                            <connections>
+                                                <action selector="logoutButton:" destination="9FT-N9-lqx" id="qVe-ds-hSj"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jdr-fE-xOb">
+                                <rect key="frame" x="6" y="63" width="314" height="88"/>
+                                <string key="text">The colorectal cancer screening test that best matches your risk for colorectal cancer, screening preferences and answers is the</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9GV-z4-TVK">
+                                <rect key="frame" x="59" y="198" width="202" height="31"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Clear Result and Restart">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearButtonClicked:" destination="9FT-N9-lqx" eventType="touchUpInside" id="y3v-qB-gcR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SbK-16-xzw">
+                                <rect key="frame" x="63" y="159" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZHl-7o-hc7">
+                                <rect key="frame" x="59" y="236" width="202" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="9FT-N9-lqx" eventType="touchUpInside" id="y8g-Fp-g2i"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Women different.jpg" id="mz7-QP-ji0">
+                                <rect key="frame" x="27" y="266" width="266" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="ynd-Uu-ePI">
+                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YdJ-8S-MLe"/>
+                    <connections>
+                        <outlet property="clearButton" destination="9GV-z4-TVK" id="8ph-xR-83c"/>
+                        <outlet property="resultLabel" destination="SbK-16-xzw" id="2Fc-cR-VkY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fNO-tT-fFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-619" y="-468"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h20-eT-Je0">
+            <objects>
+                <viewController id="sGM-Pj-aGB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Rc-Cf-M2L">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="X5e-5C-dxt">
+                                <rect key="frame" x="10" y="138" width="300" height="313"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+The support of family and friends can make all the difference in the world in completing a colorectal cancer screening. 
+Do you know there are many types of support that can help you make a decision about colorectal cancer screening? </string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" id="sbn-ws-FyH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Support" id="eZP-g1-Xl1">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="xmd-1g-nRZ">
+                                            <connections>
+                                                <segue destination="CMV-Ve-aGI" kind="push" id="gtN-Mq-hjL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="Ihy-6d-rY2">
+                                            <connections>
+                                                <segue destination="xqu-1h-GPF" kind="push" id="R0X-cn-1ye"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Support for colorectal cancer screening" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4b3-eP-c3A">
+                                <rect key="frame" x="12" y="87" width="296" height="55"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="Fzz-dM-SRA">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nR0-Bw-NeR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e4b-lk-wfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-264" y="472"/>
+        </scene>
+        <!--Third Choice View Controller-->
+        <scene sceneID="FsE-oN-eHA">
+            <objects>
+                <viewController id="9QG-27-yao" customClass="ThirdChoiceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qlW-s8-aq9">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fgg-bn-isB">
+                                <rect key="frame" x="31" y="189" width="116" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="FOBT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fobtButton:" destination="9QG-27-yao" eventType="touchUpInside" id="tGi-TC-H0f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vuX-oG-Ajg">
+                                <rect key="frame" x="169" y="189" width="120" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Colonoscopy">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ColonButton:" destination="9QG-27-yao" eventType="touchUpInside" id="yoT-gs-eCa"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" id="wNo-In-ekw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Benefits" id="sFr-TY-52p">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="wN7-5o-3mg">
+                                            <connections>
+                                                <segue destination="nSf-vc-b8M" kind="push" id="BkW-HN-5bs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="d5E-gJ-7q4">
+                                            <connections>
+                                                <segue destination="RY4-r1-jaN" kind="push" identifier="next3" id="YwZ-rt-lmF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Based on what you have learned, what test are you interested in? " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GdS-eJ-AVd">
+                                <rect key="frame" x="31" y="98" width="258" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="uRj-ix-6dJ">
+                                <rect key="frame" x="0.0" y="44" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HNl-PC-JM6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cw9-sm-Kv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2320" y="1047"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kaf-c8-vKr">
+            <objects>
+                <viewController id="nSf-vc-b8M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sdr-79-7us">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="2XP-TW-5I9">
+                                <rect key="frame" x="0.0" y="-1" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Benefits" id="7qW-AO-1Fv">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="hjq-3h-iSZ">
+                                            <connections>
+                                                <segue destination="JoQ-6u-i0g" kind="push" id="Ldc-O2-TIq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="eAj-Mc-lPG">
+                                            <connections>
+                                                <segue destination="9QG-27-yao" kind="push" id="d7f-Le-Dfk"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Benefits of colorectal cancer screening" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x1t-Vh-u7o">
+                                <rect key="frame" x="14" y="43" width="292" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="c1b-O0-J1c">
+                                <rect key="frame" x="0.0" y="43" width="325" height="415"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <string key="text">   The biggest benefit of regular colorectal cancer screening is finding colorectal cancer early when it is most treatable.  Each of the tests for colorectal cancer has different benefits but both tests find colorectal cancer early.
+    Fecal Occult Blood Test is inexpensive and covered by all insurances. The fecal occult blood test finds blood in stool which may indicate colorectal cancer. 
+    Colonoscopy is covered by all insurances. The colonoscopy finds polyps (pre-cancerous growths) in the upper and lower intestine. During the colonoscopy, the polyps can be removed. The colonoscopy finds cancerous lesions in the upper and lower intestine.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="xJO-vW-xFf">
+                                <rect key="frame" x="0.0" y="35" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E8B-G1-IHh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A3D-yG-xWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2726" y="1047"/>
+        </scene>
+        <!--Second Choice View Controller-->
+        <scene sceneID="yaV-UZ-w8w">
+            <objects>
+                <viewController id="CMV-Ve-aGI" customClass="SecondChoiceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oYL-2f-rII">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="xEU-wk-IR9">
+                                <rect key="frame" x="-1" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Risk" id="VdN-6a-pXy">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Ytm-gk-NS3">
+                                            <connections>
+                                                <segue destination="iEk-RS-ZtJ" kind="push" id="QVZ-w2-GyJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="7Pa-vw-ahw">
+                                            <connections>
+                                                <action selector="nextButton:" destination="CMV-Ve-aGI" id="2sz-rE-PaV"/>
+                                                <segue destination="sGM-Pj-aGB" kind="push" identifier="next2" id="hHK-nL-6vk"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yb2-LD-CDV">
+                                <rect key="frame" x="30" y="189" width="116" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="FOBT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fobtButton:" destination="CMV-Ve-aGI" eventType="touchUpInside" id="rhk-x8-LOS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ziJ-Dm-mtI">
+                                <rect key="frame" x="161" y="189" width="117" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Colonoscopy">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ColonButton:" destination="CMV-Ve-aGI" eventType="touchUpInside" id="8sH-Io-TQB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Based on what you have learned, what test are you interested in? " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sMC-M7-27w">
+                                <rect key="frame" x="30" y="110" width="258" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="8H6-cY-peG">
+                                <rect key="frame" x="0.0" y="44" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8vC-iv-Hu4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0e-hR-ufc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="1009"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dML-ta-fmA">
+            <objects>
+                <viewController id="iEk-RS-ZtJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FmT-oO-CwM">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UPj-F6-XcF">
+                                <rect key="frame" x="20" y="86" width="288" height="250"/>
+                                <string key="text">Risks related to having a colonoscopy can include tears in the lining of the colon, bleeding, and problems with the heart or blood vessels. These complications are rare and occur most often in older patients. </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Risks related to colonoscopy" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jx4-Ol-lqI">
+                                <rect key="frame" x="22" y="86" width="284" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="2Gp-iU-Pd6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Risk" id="Wgv-yt-lXm">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="RlR-W9-JPU">
+                                            <connections>
+                                                <segue destination="S6l-y9-GDe" kind="push" id="DWq-eh-9b9"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="zGX-I5-lVT">
+                                            <connections>
+                                                <segue destination="CMV-Ve-aGI" kind="push" id="6HM-Ji-DCF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="RLY-YW-zEG">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="faz-Jd-j28"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85z-83-Pox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1566" y="488"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jm8-Uh-Nzt">
+            <objects>
+                <viewController id="S6l-y9-GDe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PHi-8i-SgL">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Ibd-Yk-l4W">
+                                <rect key="frame" x="10" y="138" width="300" height="292"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The results of the fecal occult blood test may look to be abnormal when there is no cancer.  This is called a false-positive test result.  A false-positive test result can lead to more testing and anxiety. Additional tests after a false-positive fecal occult blood test may include a colonoscopy.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="fecal occult blood test" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M3g-nw-FdT">
+                                <rect key="frame" x="58" y="88" width="250" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="xed-Ed-VEM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Risk" id="cVE-UY-Cae">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="WcB-tJ-Kbc">
+                                            <connections>
+                                                <segue destination="RY4-r1-jaN" kind="push" id="fJ6-qp-Gv4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="q6j-IE-NRd">
+                                            <connections>
+                                                <segue destination="iEk-RS-ZtJ" kind="push" id="jZ9-gF-Q3H"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Risks related to " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5qU-LO-8mm">
+                                <rect key="frame" x="85" y="74" width="165" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="qHG-hX-fQ1">
+                                <rect key="frame" x="0.0" y="44" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Re-cE-qKL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PcM-RE-oLl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1977" y="483"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eqg-6Z-8Tj">
+            <objects>
+                <viewController id="RY4-r1-jaN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oq0-N8-9Yj">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Risks of colorectal cancer screening" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jGi-YR-2tc">
+                                <rect key="frame" x="1" y="68" width="319" height="57"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Ex-s2-Ghe">
+                                <rect key="frame" x="20" y="126" width="280" height="208"/>
+                                <string key="text">Colorectal cancer screening tests have risks and benefits. It is important that you know what those risks and benefits are and what risks you are comfortable with before you select a colorectal cancer test. </string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="a4g-cm-HCt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Risk" id="jgg-xS-iVW">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="APh-zX-bqM">
+                                            <connections>
+                                                <segue destination="9QG-27-yao" kind="push" id="jyV-cl-Dfh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="Pfj-Xx-4LU">
+                                            <connections>
+                                                <segue destination="S6l-y9-GDe" kind="push" id="rvI-6r-cUC"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="SYM-u6-dqQ">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mj6-7B-dW0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tjZ-86-Gwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2410" y="397"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="maz-bt-hvI">
+            <objects>
+                <viewController id="2dM-Fp-Gia" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2x2-JM-LGZ">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="dtp-W9-v9Z">
+                                <rect key="frame" x="4" y="112" width="310" height="336"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">    How much time does it take to prepare to get tested for colorectal cancer? The FOBT and colonoscopy require different amounts of time and preparation.
+    To prepare for the FOBT, your doctor may ask that you avoid the following before this test:  
+    Ibuprofen (Advil), naproxen (Aleve) or aspirin (more than 1 adult aspirin per day), for 7 days before testing. These medications can cause bleeding, which can lead to a false-positive result. Actetaminophen (Tylenol) can be taken as needed. 
+    Vitamin C from citrus fruits, juices or supplements that exceed 250 mg daily for 3 days before testing. Vitamin C can affect the chemicals in the test and make it appear negative, even when blood is present in the stool.   
+    Red meats (beef, lamb, or liver) for 3 days before testing. The test results may be positive because of the properties of blood in the meat. 
+    These restrictions may be hard for people. The most important thing is to do the test. If at all possible, avoid taking aspirin, naproxen or ibuprofen for minor aches. However, if you take these medicines because of a heart problem or other problems, talk to your health care provider before you stop taking them. 
+    For more details on the fecal occult blood test http://www.screeningforlife.ca/colorectalcancerscreening/about-colorectal-cancer-screening/home-stool-test   </string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="YBI-IF-7T0">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="QFv-Gb-NdZ">
+                                <rect key="frame" x="0.0" y="0.0" width="319" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Preparation" id="qtJ-Oy-quW">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="oDK-xx-wfi">
+                                            <connections>
+                                                <segue destination="UJi-ru-4ag" kind="push" id="bvS-G4-sco"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="fqP-n7-c6f">
+                                            <connections>
+                                                <segue destination="JoQ-6u-i0g" kind="push" id="Kcf-hr-88c"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZV2-3v-PHw">
+                                <rect key="frame" x="4" y="44" width="320" height="84"/>
+                                <string key="text">Preparing for your colorectal cancer test
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3nm-MQ-HAt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tun-y6-gQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3130" y="457"/>
+        </scene>
+        <!--Prepare View Controller-->
+        <scene sceneID="9oc-Ib-SGl">
+            <objects>
+                <viewController id="JoQ-6u-i0g" customClass="prepareViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rSR-X2-Md4">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="r7M-Fn-nQp">
+                                <rect key="frame" x="0.0" y="71" width="320" height="389"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">detailed.  In order for the doctor to see the inner linings of your colon and rectum, both need to be empty and clean. 
+    You will need to take laxatives the day before the test and possibly an enema that morning.  If you choose to have a colonoscopy your doctor will give you specific instructions about what to do.  It will be important to read the instructions carefully. The instructions will give detailed information about any special supplies or medications needed to prepare for the colonoscopy. 
+    For more information on what to expect before, during, and after a colonoscopy http://www.screeningforlife.ca/colorectalcancerscreening/about-colorectal-cancer-screening/colonoscopy
+</string>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="LXp-yf-GNT">
+                                <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="3WR-AF-9kB">
+                                <rect key="frame" x="0.0" y="0.0" width="319" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Preparation" id="9M6-2z-tiq">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="6gd-yU-y2v">
+                                            <connections>
+                                                <segue destination="2dM-Fp-Gia" kind="push" id="iIx-8g-IsI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="ooT-MI-ChU">
+                                            <connections>
+                                                <segue destination="nSf-vc-b8M" kind="push" id="BsZ-zT-2D6"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=" Preparing for a colonoscopy is very " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rem-PO-0z6">
+                                <rect key="frame" x="22" y="55" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gTY-l9-I9V"/>
+                    <connections>
+                        <outlet property="text" destination="Rem-PO-0z6" id="Khk-cP-R7m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgy-7T-gT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3130" y="1033"/>
+        </scene>
+        <!--First Choice View Controller-->
+        <scene sceneID="afv-SF-Vlb">
+            <objects>
+                <viewController id="UJi-ru-4ag" customClass="FirstChoiceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pIO-ol-h7m">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="V30-MP-GT7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Intro" id="uLB-bJ-gKK">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="aO8-Ku-gHs">
+                                            <connections>
+                                                <segue destination="xog-1W-02v" kind="push" id="jc0-8S-5R8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="Z0S-66-SUF">
+                                            <connections>
+                                                <action selector="nextButton:" destination="UJi-ru-4ag" id="9IV-xm-4wa"/>
+                                                <segue destination="2dM-Fp-Gia" kind="push" identifier="next1" id="rHa-J8-h6X"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zwt-6V-KMM">
+                                <rect key="frame" x="45" y="165" width="107" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="FOBT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fobtButton:" destination="UJi-ru-4ag" eventType="touchUpInside" id="JTN-L2-o1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Cg-0O-c3f">
+                                <rect key="frame" x="168" y="165" width="108" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Colonoscopy">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colonButton:" destination="UJi-ru-4ag" eventType="touchUpInside" id="ZbC-AX-StV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Based on what you have read, which test would you choose? " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rbc-6s-Bcw">
+                                <rect key="frame" x="55" y="63" width="210" height="84"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="INW-tS-xnf">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qfz-XE-ibB"/>
+                    <connections>
+                        <outlet property="colonButton" destination="7Cg-0O-c3f" id="o4m-vS-eKK"/>
+                        <outlet property="fobtButtton" destination="zwt-6V-KMM" id="DvZ-7j-sYE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vm9-nf-b4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2819" y="-545"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7rC-hX-c7H">
+            <objects>
+                <viewController id="xog-1W-02v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DTT-vs-vyM">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="jvQ-k9-b8d">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Screening" id="dH6-Wb-U0B">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="laU-xP-gAN">
+                                            <connections>
+                                                <segue destination="pWG-aN-NJH" kind="push" id="oEB-Gf-Dxw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="xX9-kU-yOv">
+                                            <connections>
+                                                <segue destination="UJi-ru-4ag" kind="push" id="wz8-AF-Vz7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="ITl-3B-CBI">
+                                <rect key="frame" x="0.0" y="122" width="320" height="235"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Colonoscopy is a procedure to look inside the rectum and colon for polyps, abnormal areas, or cancer. A colonoscope is inserted through the rectum into the colon.  A colonoscope is a thin, tube-like instrument with a light and a lens for viewing. It may also have a tool to remove polyps or tissue samples, which are checked under a microscope for signs of cancer.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Colonoscopy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P6k-I0-vGs">
+                                <rect key="frame" x="97" y="76" width="127" height="38"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleToFill" image="CRC ribbon Cover Photo.jpg" id="iGe-7q-Wsd">
+                                <rect key="frame" x="0.0" y="44" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QRC-CQ-b1q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XSP-yT-58E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2468" y="-167"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1359540668_list-add-user.png" width="22" height="22"/>
+        <image name="1359541388_door_in.png" width="32" height="32"/>
+        <image name="CRC ribbon Cover Photo.jpg" width="620" height="412"/>
+        <image name="Women different.jpg" width="960" height="640"/>
+        <image name="Women_Khakis.jpg" width="400" height="400"/>
+        <image name="back.png" width="128" height="128"/>
+        <image name="forward.png" width="128" height="128"/>
+        <image name="kerdojel96.png" width="96" height="96"/>
+    </resources>
+    <classes>
+        <class className="FirstChoiceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstChoiceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="colonButton:"/>
+                <relationship kind="action" name="fobtButton:"/>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="outlet" name="colonButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fobtButtton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="IntroViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IntroViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="riskBar" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="QuestionOneViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuestionOneViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="nextQuestionButton:"/>
+                <relationship kind="action" name="pressNo:"/>
+                <relationship kind="action" name="pressYes:"/>
+                <relationship kind="action" name="previousButton:"/>
+                <relationship kind="outlet" name="noButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="questionBar" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="questionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="yesButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="QuestionTwoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuestionTwoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="nextQuestionButton:"/>
+                <relationship kind="action" name="pressDontKnow:"/>
+                <relationship kind="action" name="pressNo:"/>
+                <relationship kind="action" name="pressYes:"/>
+                <relationship kind="action" name="previousButton:"/>
+                <relationship kind="outlet" name="DontKnowButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="NoButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="YesButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="questionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="undoButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ResultViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ResultViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backToFirstPage:"/>
+                <relationship kind="action" name="clearButtonClicked:"/>
+                <relationship kind="action" name="logoutButton:"/>
+                <relationship kind="action" name="submitButton:"/>
+                <relationship kind="outlet" name="clearButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="colonResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fobtResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="resultLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="RiskAssessViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RiskAssessViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="fifthButtonPressed:"/>
+                <relationship kind="action" name="firstButtonPressed:"/>
+                <relationship kind="action" name="fourthButtonPressed:"/>
+                <relationship kind="action" name="nextArrowPressed:"/>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="previousArrowPressed:"/>
+                <relationship kind="action" name="secondButtonPressed:"/>
+                <relationship kind="action" name="thirdButtonPressed:"/>
+                <relationship kind="outlet" name="ageField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="fifthButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="firstButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fourthButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="nextArrow" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="pickerView" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="previousArrow" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="questionBar" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="secondButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="thirdButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="RiskScoreViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RiskScoreViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextButton:"/>
+                <relationship kind="action" name="notifyLater:"/>
+                <relationship kind="outlet" name="riskResultBar" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="SecondChoiceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondChoiceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ColonButton:"/>
+                <relationship kind="action" name="fobtButton:"/>
+                <relationship kind="action" name="nextButton:"/>
+            </relationships>
+        </class>
+        <class className="SignUpViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignUpViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="submit:"/>
+                <relationship kind="outlet" name="confirmPasswordTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="passWordTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userNameTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ThirdChoiceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdChoiceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ColonButton:"/>
+                <relationship kind="action" name="fobtButton:"/>
+                <relationship kind="action" name="nextButton:"/>
+            </relationships>
+        </class>
+        <class className="loginPageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/loginPageViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loginButton:"/>
+                <relationship kind="outlet" name="password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="username" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="prepareViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/prepareViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="text" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="tuT-mB-NfH"/>
+        <segue reference="X30-Nr-Zfa"/>
+        <segue reference="N76-va-cK8"/>
+        <segue reference="gKk-Nr-XOe"/>
+        <segue reference="rHa-J8-h6X"/>
+        <segue reference="bvS-G4-sco"/>
+        <segue reference="Kcf-hr-88c"/>
+        <segue reference="BsZ-zT-2D6"/>
+        <segue reference="gtN-Mq-hjL"/>
+        <segue reference="PJa-nZ-ZRU"/>
+        <segue reference="R0X-cn-1ye"/>
+        <segue reference="QVZ-w2-GyJ"/>
+        <segue reference="5LD-Do-u4H"/>
+        <segue reference="Kdt-zg-vaq"/>
+        <segue reference="X4v-ux-U7y"/>
+        <segue reference="fJ6-qp-Gv4"/>
+        <segue reference="rvI-6r-cUC"/>
+        <segue reference="jyV-cl-Dfh"/>
+        <segue reference="oEB-Gf-Dxw"/>
+        <segue reference="yMw-Sh-BtH"/>
+    </inferredMetricsTieBreakers>
+</document>

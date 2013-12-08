@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E91E43C1814EAB100D74070 /* MainStoryboard5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43A1814EAB100D74070 /* MainStoryboard5.storyboard */; };
+		0E91E44F1815602800D74070 /* 114x114_crop_ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43D1815602800D74070 /* 114x114_crop_ladydoc-jpg.png */; };
+		0E91E4501815602800D74070 /* 1359540668_list-add-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43E1815602800D74070 /* 1359540668_list-add-user.png */; };
+		0E91E4511815602800D74070 /* 1359541388_door_in.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E43F1815602800D74070 /* 1359541388_door_in.png */; };
+		0E91E4521815602800D74070 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4401815602800D74070 /* back.png */; };
+		0E91E4531815602800D74070 /* CRC ribbon Cover Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4411815602800D74070 /* CRC ribbon Cover Photo.jpg */; };
+		0E91E4541815602800D74070 /* dark_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4421815602800D74070 /* dark_grey.png */; };
+		0E91E4551815602800D74070 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4431815602800D74070 /* Default-568h@2x.png */; };
+		0E91E4561815602800D74070 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4441815602800D74070 /* Default.png */; };
+		0E91E4571815602800D74070 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4451815602800D74070 /* Default@2x.png */; };
+		0E91E4581815602800D74070 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4461815602800D74070 /* forward.png */; };
+		0E91E4591815602800D74070 /* grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4471815602800D74070 /* grey.jpg */; };
+		0E91E45A1815602800D74070 /* kerdojel96.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4481815602800D74070 /* kerdojel96.png */; };
+		0E91E45B1815602800D74070 /* resizedimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E4491815602800D74070 /* resizedimage.png */; };
+		0E91E45C1815602800D74070 /* rsz_1ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44A1815602800D74070 /* rsz_1ladydoc-jpg.png */; };
+		0E91E45D1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44B1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png */; };
+		0E91E45E1815602800D74070 /* rsz_ladydoc-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44C1815602800D74070 /* rsz_ladydoc-jpg.png */; };
+		0E91E45F1815602800D74070 /* Women different.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44D1815602800D74070 /* Women different.jpg */; };
+		0E91E4601815602800D74070 /* Women_Khakis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E91E44E1815602800D74070 /* Women_Khakis.jpg */; };
+		41202AFA17429E50003CC818 /* loginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202AF917429E50003CC818 /* loginPageViewController.m */; };
+		41202B001742A05D003CC818 /* AppDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202AFC1742A05D003CC818 /* AppDataObject.m */; };
+		41202B011742A05D003CC818 /* ExampleAppDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202AFF1742A05D003CC818 /* ExampleAppDataObject.m */; };
+		41202B041742A594003CC818 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B031742A594003CC818 /* ResultViewController.m */; };
+		41202B0A1742A6EC003CC818 /* SecondChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B091742A6EC003CC818 /* SecondChoiceViewController.m */; };
+		41202B0D1742A6FA003CC818 /* ThirdChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B0C1742A6FA003CC818 /* ThirdChoiceViewController.m */; };
+		41202B19174F96AC003CC818 /* QuestionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41202B18174F96AB003CC818 /* QuestionOneViewController.m */; };
+		4155C727174FA4B000D96721 /* QuestionTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155C726174FA4B000D96721 /* QuestionTwoViewController.m */; };
+		4155C72A174FB30600D96721 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155C729174FB30600D96721 /* SignUpViewController.m */; };
+		416579E2173C989200C1277A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416579E1173C989200C1277A /* UIKit.framework */; };
+		416579E4173C989200C1277A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416579E3173C989200C1277A /* Foundation.framework */; };
+		416579E6173C989200C1277A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416579E5173C989200C1277A /* CoreGraphics.framework */; };
+		416579EC173C989200C1277A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416579EA173C989200C1277A /* InfoPlist.strings */; };
+		416579EE173C989200C1277A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416579ED173C989200C1277A /* main.m */; };
+		416579F2173C989200C1277A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416579F1173C989200C1277A /* AppDelegate.m */; };
+		416579FE173C989200C1277A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416579FD173C989200C1277A /* ViewController.m */; };
+		417413D11794929A0014A199 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417413D01794929A0014A199 /* IntroViewController.m */; };
+		417CA65917B00E8A000807EC /* prepareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417CA65817B00E8A000807EC /* prepareViewController.m */; };
+		417CA66217B14506000807EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417CA66017B14506000807EC /* MainStoryboard.storyboard */; };
+		418BB0A71778E9BB00BAC47C /* RiskScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418BB0A61778E9BB00BAC47C /* RiskScoreViewController.m */; };
+		41B823DA17D62D950006E5F2 /* FirstChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B823D917D62D950006E5F2 /* FirstChoiceViewController.m */; };
+		41E1BA86177642370009DBFE /* RiskAssessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E1BA85177642370009DBFE /* RiskAssessViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E91E43B1814EAB100D74070 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = womenhealth/en.lproj/MainStoryboard5.storyboard; sourceTree = "<group>"; };
+		0E91E43D1815602800D74070 /* 114x114_crop_ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114x114_crop_ladydoc-jpg.png"; path = "image/114x114_crop_ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E43E1815602800D74070 /* 1359540668_list-add-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1359540668_list-add-user.png"; path = "image/1359540668_list-add-user.png"; sourceTree = "<group>"; };
+		0E91E43F1815602800D74070 /* 1359541388_door_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1359541388_door_in.png; path = image/1359541388_door_in.png; sourceTree = "<group>"; };
+		0E91E4401815602800D74070 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = image/back.png; sourceTree = "<group>"; };
+		0E91E4411815602800D74070 /* CRC ribbon Cover Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "CRC ribbon Cover Photo.jpg"; path = "image/CRC ribbon Cover Photo.jpg"; sourceTree = "<group>"; };
+		0E91E4421815602800D74070 /* dark_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_grey.png; path = image/dark_grey.png; sourceTree = "<group>"; };
+		0E91E4431815602800D74070 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "image/Default-568h@2x.png"; sourceTree = "<group>"; };
+		0E91E4441815602800D74070 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = image/Default.png; sourceTree = "<group>"; };
+		0E91E4451815602800D74070 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "image/Default@2x.png"; sourceTree = "<group>"; };
+		0E91E4461815602800D74070 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = image/forward.png; sourceTree = "<group>"; };
+		0E91E4471815602800D74070 /* grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grey.jpg; path = image/grey.jpg; sourceTree = "<group>"; };
+		0E91E4481815602800D74070 /* kerdojel96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kerdojel96.png; path = image/kerdojel96.png; sourceTree = "<group>"; };
+		0E91E4491815602800D74070 /* resizedimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resizedimage.png; path = image/resizedimage.png; sourceTree = "<group>"; };
+		0E91E44A1815602800D74070 /* rsz_1ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_1ladydoc-jpg.png"; path = "image/rsz_1ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E44B1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_1rsz_1ladydoc-jpg.png"; path = "image/rsz_1rsz_1ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E44C1815602800D74070 /* rsz_ladydoc-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_ladydoc-jpg.png"; path = "image/rsz_ladydoc-jpg.png"; sourceTree = "<group>"; };
+		0E91E44D1815602800D74070 /* Women different.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Women different.jpg"; path = "image/Women different.jpg"; sourceTree = "<group>"; };
+		0E91E44E1815602800D74070 /* Women_Khakis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Women_Khakis.jpg; path = image/Women_Khakis.jpg; sourceTree = "<group>"; };
+		41202AF817429E50003CC818 /* loginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginPageViewController.h; sourceTree = "<group>"; };
+		41202AF917429E50003CC818 /* loginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginPageViewController.m; sourceTree = "<group>"; };
+		41202AFB1742A05D003CC818 /* AppDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataObject.h; sourceTree = "<group>"; };
+		41202AFC1742A05D003CC818 /* AppDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataObject.m; sourceTree = "<group>"; };
+		41202AFD1742A05D003CC818 /* AppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateProtocol.h; sourceTree = "<group>"; };
+		41202AFE1742A05D003CC818 /* ExampleAppDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleAppDataObject.h; sourceTree = "<group>"; };
+		41202AFF1742A05D003CC818 /* ExampleAppDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDataObject.m; sourceTree = "<group>"; };
+		41202B021742A594003CC818 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		41202B031742A594003CC818 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		41202B081742A6EC003CC818 /* SecondChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondChoiceViewController.h; sourceTree = "<group>"; };
+		41202B091742A6EC003CC818 /* SecondChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondChoiceViewController.m; sourceTree = "<group>"; };
+		41202B0B1742A6FA003CC818 /* ThirdChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdChoiceViewController.h; sourceTree = "<group>"; };
+		41202B0C1742A6FA003CC818 /* ThirdChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdChoiceViewController.m; sourceTree = "<group>"; };
+		41202B17174F96AB003CC818 /* QuestionOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionOneViewController.h; sourceTree = "<group>"; };
+		41202B18174F96AB003CC818 /* QuestionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionOneViewController.m; sourceTree = "<group>"; };
+		4155C725174FA4B000D96721 /* QuestionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTwoViewController.h; sourceTree = "<group>"; };
+		4155C726174FA4B000D96721 /* QuestionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTwoViewController.m; sourceTree = "<group>"; };
+		4155C728174FB30600D96721 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		4155C729174FB30600D96721 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		416579DE173C989200C1277A /* MyLife Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyLife Cloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416579E1173C989200C1277A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		416579E3173C989200C1277A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		416579E5173C989200C1277A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		416579E9173C989200C1277A /* womenhealth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "womenhealth-Info.plist"; sourceTree = "<group>"; };
+		416579EB173C989200C1277A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		416579ED173C989200C1277A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416579EF173C989200C1277A /* womenhealth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "womenhealth-Prefix.pch"; sourceTree = "<group>"; };
+		416579F0173C989200C1277A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		416579F1173C989200C1277A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		416579FC173C989200C1277A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		416579FD173C989200C1277A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		417413CF1794929A0014A199 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		417413D01794929A0014A199 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		417CA65717B00E8A000807EC /* prepareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prepareViewController.h; sourceTree = "<group>"; };
+		417CA65817B00E8A000807EC /* prepareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prepareViewController.m; sourceTree = "<group>"; };
+		417CA66117B14506000807EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = womenhealth/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		418BB0A51778E9BB00BAC47C /* RiskScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskScoreViewController.h; sourceTree = "<group>"; };
+		418BB0A61778E9BB00BAC47C /* RiskScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiskScoreViewController.m; sourceTree = "<group>"; };
+		41B823D817D62D950006E5F2 /* FirstChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstChoiceViewController.h; sourceTree = "<group>"; };
+		41B823D917D62D950006E5F2 /* FirstChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstChoiceViewController.m; sourceTree = "<group>"; };
+		41E1BA84177642370009DBFE /* RiskAssessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskAssessViewController.h; sourceTree = "<group>"; };
+		41E1BA85177642370009DBFE /* RiskAssessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiskAssessViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416579DB173C989200C1277A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416579E2173C989200C1277A /* UIKit.framework in Frameworks */,
+				416579E4173C989200C1277A /* Foundation.framework in Frameworks */,
+				416579E6173C989200C1277A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41465C8717CC513200BA326F /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				0E91E43D1815602800D74070 /* 114x114_crop_ladydoc-jpg.png */,
+				0E91E43E1815602800D74070 /* 1359540668_list-add-user.png */,
+				0E91E43F1815602800D74070 /* 1359541388_door_in.png */,
+				0E91E4401815602800D74070 /* back.png */,
+				0E91E4411815602800D74070 /* CRC ribbon Cover Photo.jpg */,
+				0E91E4421815602800D74070 /* dark_grey.png */,
+				0E91E4461815602800D74070 /* forward.png */,
+				0E91E4471815602800D74070 /* grey.jpg */,
+				0E91E4481815602800D74070 /* kerdojel96.png */,
+				0E91E4491815602800D74070 /* resizedimage.png */,
+				0E91E44A1815602800D74070 /* rsz_1ladydoc-jpg.png */,
+				0E91E44B1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png */,
+				0E91E44C1815602800D74070 /* rsz_ladydoc-jpg.png */,
+				0E91E44D1815602800D74070 /* Women different.jpg */,
+				0E91E44E1815602800D74070 /* Women_Khakis.jpg */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		416579D5173C989200C1277A = {
+			isa = PBXGroup;
+			children = (
+				416579E7173C989200C1277A /* womenhealth */,
+				416579E0173C989200C1277A /* Frameworks */,
+				416579DF173C989200C1277A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416579DF173C989200C1277A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416579DE173C989200C1277A /* MyLife Cloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416579E0173C989200C1277A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416579E1173C989200C1277A /* UIKit.framework */,
+				416579E3173C989200C1277A /* Foundation.framework */,
+				416579E5173C989200C1277A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		416579E7173C989200C1277A /* womenhealth */ = {
+			isa = PBXGroup;
+			children = (
+				41465C8717CC513200BA326F /* Img */,
+				416579F0173C989200C1277A /* AppDelegate.h */,
+				416579F1173C989200C1277A /* AppDelegate.m */,
+				417CA65717B00E8A000807EC /* prepareViewController.h */,
+				417CA65817B00E8A000807EC /* prepareViewController.m */,
+				417CA66017B14506000807EC /* MainStoryboard.storyboard */,
+				0E91E43A1814EAB100D74070 /* MainStoryboard5.storyboard */,
+				417413CF1794929A0014A199 /* IntroViewController.h */,
+				417413D01794929A0014A199 /* IntroViewController.m */,
+				418BB0A51778E9BB00BAC47C /* RiskScoreViewController.h */,
+				418BB0A61778E9BB00BAC47C /* RiskScoreViewController.m */,
+				41E1BA84177642370009DBFE /* RiskAssessViewController.h */,
+				41E1BA85177642370009DBFE /* RiskAssessViewController.m */,
+				41202B17174F96AB003CC818 /* QuestionOneViewController.h */,
+				41202B18174F96AB003CC818 /* QuestionOneViewController.m */,
+				4155C725174FA4B000D96721 /* QuestionTwoViewController.h */,
+				4155C726174FA4B000D96721 /* QuestionTwoViewController.m */,
+				41B823D817D62D950006E5F2 /* FirstChoiceViewController.h */,
+				41B823D917D62D950006E5F2 /* FirstChoiceViewController.m */,
+				41202B081742A6EC003CC818 /* SecondChoiceViewController.h */,
+				41202B091742A6EC003CC818 /* SecondChoiceViewController.m */,
+				41202B0B1742A6FA003CC818 /* ThirdChoiceViewController.h */,
+				41202B0C1742A6FA003CC818 /* ThirdChoiceViewController.m */,
+				41202B021742A594003CC818 /* ResultViewController.h */,
+				41202B031742A594003CC818 /* ResultViewController.m */,
+				41202AFB1742A05D003CC818 /* AppDataObject.h */,
+				41202AFC1742A05D003CC818 /* AppDataObject.m */,
+				41202AFD1742A05D003CC818 /* AppDelegateProtocol.h */,
+				41202AFE1742A05D003CC818 /* ExampleAppDataObject.h */,
+				41202AFF1742A05D003CC818 /* ExampleAppDataObject.m */,
+				41202AF817429E50003CC818 /* loginPageViewController.h */,
+				41202AF917429E50003CC818 /* loginPageViewController.m */,
+				4155C728174FB30600D96721 /* SignUpViewController.h */,
+				4155C729174FB30600D96721 /* SignUpViewController.m */,
+				416579FC173C989200C1277A /* ViewController.h */,
+				416579FD173C989200C1277A /* ViewController.m */,
+				416579E8173C989200C1277A /* Supporting Files */,
+			);
+			path = womenhealth;
+			sourceTree = "<group>";
+		};
+		416579E8173C989200C1277A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E91E4431815602800D74070 /* Default-568h@2x.png */,
+				0E91E4441815602800D74070 /* Default.png */,
+				0E91E4451815602800D74070 /* Default@2x.png */,
+				416579E9173C989200C1277A /* womenhealth-Info.plist */,
+				416579EA173C989200C1277A /* InfoPlist.strings */,
+				416579ED173C989200C1277A /* main.m */,
+				416579EF173C989200C1277A /* womenhealth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416579DD173C989200C1277A /* womenhealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41657A01173C989200C1277A /* Build configuration list for PBXNativeTarget "womenhealth" */;
+			buildPhases = (
+				416579DA173C989200C1277A /* Sources */,
+				416579DB173C989200C1277A /* Frameworks */,
+				416579DC173C989200C1277A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = womenhealth;
+			productName = womenhealth;
+			productReference = 416579DE173C989200C1277A /* MyLife Cloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416579D6173C989200C1277A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = codes;
+			};
+			buildConfigurationList = 416579D9173C989200C1277A /* Build configuration list for PBXProject "womenhealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 416579D5173C989200C1277A;
+			productRefGroup = 416579DF173C989200C1277A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416579DD173C989200C1277A /* womenhealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416579DC173C989200C1277A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416579EC173C989200C1277A /* InfoPlist.strings in Resources */,
+				417CA66217B14506000807EC /* MainStoryboard.storyboard in Resources */,
+				0E91E43C1814EAB100D74070 /* MainStoryboard5.storyboard in Resources */,
+				0E91E44F1815602800D74070 /* 114x114_crop_ladydoc-jpg.png in Resources */,
+				0E91E4501815602800D74070 /* 1359540668_list-add-user.png in Resources */,
+				0E91E4511815602800D74070 /* 1359541388_door_in.png in Resources */,
+				0E91E4521815602800D74070 /* back.png in Resources */,
+				0E91E4531815602800D74070 /* CRC ribbon Cover Photo.jpg in Resources */,
+				0E91E4541815602800D74070 /* dark_grey.png in Resources */,
+				0E91E4551815602800D74070 /* Default-568h@2x.png in Resources */,
+				0E91E4561815602800D74070 /* Default.png in Resources */,
+				0E91E4571815602800D74070 /* Default@2x.png in Resources */,
+				0E91E4581815602800D74070 /* forward.png in Resources */,
+				0E91E4591815602800D74070 /* grey.jpg in Resources */,
+				0E91E45A1815602800D74070 /* kerdojel96.png in Resources */,
+				0E91E45B1815602800D74070 /* resizedimage.png in Resources */,
+				0E91E45C1815602800D74070 /* rsz_1ladydoc-jpg.png in Resources */,
+				0E91E45D1815602800D74070 /* rsz_1rsz_1ladydoc-jpg.png in Resources */,
+				0E91E45E1815602800D74070 /* rsz_ladydoc-jpg.png in Resources */,
+				0E91E45F1815602800D74070 /* Women different.jpg in Resources */,
+				0E91E4601815602800D74070 /* Women_Khakis.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416579DA173C989200C1277A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416579EE173C989200C1277A /* main.m in Sources */,
+				416579F2173C989200C1277A /* AppDelegate.m in Sources */,
+				416579FE173C989200C1277A /* ViewController.m in Sources */,
+				41202AFA17429E50003CC818 /* loginPageViewController.m in Sources */,
+				41202B001742A05D003CC818 /* AppDataObject.m in Sources */,
+				41202B011742A05D003CC818 /* ExampleAppDataObject.m in Sources */,
+				41202B041742A594003CC818 /* ResultViewController.m in Sources */,
+				41202B0A1742A6EC003CC818 /* SecondChoiceViewController.m in Sources */,
+				41202B0D1742A6FA003CC818 /* ThirdChoiceViewController.m in Sources */,
+				41202B19174F96AC003CC818 /* QuestionOneViewController.m in Sources */,
+				4155C727174FA4B000D96721 /* QuestionTwoViewController.m in Sources */,
+				4155C72A174FB30600D96721 /* SignUpViewController.m in Sources */,
+				41E1BA86177642370009DBFE /* RiskAssessViewController.m in Sources */,
+				418BB0A71778E9BB00BAC47C /* RiskScoreViewController.m in Sources */,
+				417413D11794929A0014A199 /* IntroViewController.m in Sources */,
+				417CA65917B00E8A000807EC /* prepareViewController.m in Sources */,
+				41B823DA17D62D950006E5F2 /* FirstChoiceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E91E43A1814EAB100D74070 /* MainStoryboard5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E91E43B1814EAB100D74070 /* en */,
+			);
+			name = MainStoryboard5.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		416579EA173C989200C1277A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416579EB173C989200C1277A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		417CA66017B14506000807EC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417CA66117B14506000807EC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416579FF173C989200C1277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41657A00173C989200C1277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41657A02173C989200C1277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "womenhealth/womenhealth-Prefix.pch";
+				INFOPLIST_FILE = "womenhealth/womenhealth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "MyLife Cloud";
+				PROVISIONING_PROFILE = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41657A03173C989200C1277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "womenhealth/womenhealth-Prefix.pch";
+				INFOPLIST_FILE = "womenhealth/womenhealth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "MyLife Cloud";
+				PROVISIONING_PROFILE = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B6D4630-FD85-4453-9E11-59F7B82EF7C8";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416579D9173C989200C1277A /* Build configuration list for PBXProject "womenhealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416579FF173C989200C1277A /* Debug */,
+				41657A00173C989200C1277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41657A01173C989200C1277A /* Build configuration list for PBXNativeTarget "womenhealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41657A02173C989200C1277A /* Debug */,
+				41657A03173C989200C1277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416579D6173C989200C1277A /* Project object */;
+}
