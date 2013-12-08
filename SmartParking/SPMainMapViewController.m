@@ -5,7 +5,7 @@
 //  Created by smart_parking on 1/2/13.
 //  Copyright (c) 2013 smart_parking. All rights reserved.
 //
-#define allowAssignDistance			   2000000000000000
+#define allowAssignDistance			   20000
 #define closeDetectDistance            500
 #import "SPMainMapViewController.h"
 #import "SPDestAnnotation.h"
@@ -273,11 +273,17 @@ static int distance = 0;
     
     radiusOverlay = [MKCircle circleWithCenterCoordinate:pAnnotation.coordinate radius:pAnnotation.radius];
     closeRadiusOverlay = [MKCircle circleWithCenterCoordinate:pAnnotation.coordinate radius:pAnnotation.closeRadius];
-    [self.mapView addOverlay:radiusOverlay level:MKOverlayLevelAboveLabels];
-    [self.mapView addOverlay:closeRadiusOverlay level:MKOverlayLevelAboveLabels];
-//    [self.mapView addOverlay:radiusOverlay];
-//    [self.mapView addOverlay:closeRadiusOverlay];
-        
+    NSString *currSysVer = [[UIDevice currentDevice] systemVersion];
+    NSLog(@"IOS version:%@",currSysVer);
+//    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1) {
+//    [self.mapView addOverlay:radiusOverlay level:MKOverlayLevelAboveLabels];
+//    [self.mapView addOverlay:closeRadiusOverlay level:MKOverlayLevelAboveLabels];
+//    }
+//    else{
+    [self.mapView addOverlay:radiusOverlay];
+    [self.mapView addOverlay:closeRadiusOverlay];
+//    }
+    
         
     [self gotoLocation];
     [self setRegionTimer:0.2];
